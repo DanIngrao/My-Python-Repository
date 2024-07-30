@@ -1,0 +1,869 @@
+tionRedeemWithGoalTitle": "Woohoo! You have enough points to redeem a free gift card",
+  "homeRewardsSectionRedeemWithoutGoalTitle": "Congrats, you've earned enough points for a gift card!",
+  "homeRewardsSectionRewardsPointsAway": "$1 points away",
+  "homeRewardsSectionRewardsPointsBalance": "$1 points",
+  "homeRewardsSectionViewAllOffersButtonText": "View all offers in Rewards",
+  "installCryptoWalletFailedError": "We're unable to download the Crypto Wallet right now. Please try again later.",
+  "installCryptoWalletLoaingButton": "Installing...",
+  "installCryptoWalletSettingsDescription": "A secure and safe gateway for you to explore Web3 and crypto",
+  "installCryptoWalletSettingsTitle": "Crypto Wallet",
+  "installCryptoWalletSuccessMessage": "Your Crypto Wallet is now enabled.",
+  "manageCreditCardReminder": "You can manage cards saved across devices in your $1",
+  "manageSubscription": "Manage subscription",
+  "membershipGoToLinkLabel": "Go to $1.",
+  "microsoftAccount": "Microsoft account",
+  "microsoftWalletTitle": "Microsoft Wallet",
+  "msaUpsellCardDescription": "Securely save and access your payment info across devices when you sign in with your Microsoft account.",
+  "msaUpsellDescriptionV1": "Back up and sync your browsing data, favourites, passwords, history, and more across your devices when you sign in with a Microsoft account.",
+  "msaUpsellDescriptionV2": "Wallet helps keep your payment details safe when you purchase online. Sync your info across devices and earn rewards when you shop online with a Microsoft account.",
+  "msaUpsellDescriptionV3": "Keep your payment details safe and get Cashback offers when you purchase online with a Microsoft account.",
+  "msaUpsellTitle": "Save time and money when you shop securely with Wallet",
+  "myOffersFeedbackOption1": "I would like to see more offers",
+  "myOffersFeedbackOption2": "My offers are not relevant to me",
+  "myOffersFeedbackOption3": "I do not like the My offers experience",
+  "myOffersFeedbackOption4": "Other",
+  "new": "New",
+  "nicknamePlaceholder": "Enter nickname",
+  "nicknameSectionTitle": "Card nickname",
+  "orderHistoryNav": "Order history",
+  "orderTrackingCardDescription": "The order item card for $1. Current order tracking status: $2. Click or press enter to visit this order item's website.",
+  "orderTrackingItemLabel": "$1 in $2",
+  "ordersSettingsDescription": "Get shipping and delivery updates on your order",
+  "ordersSettingsTitle": "Track your order status",
+  "paginationShowRows": "Show rows",
+  "paginationShowingNumberOfItems": "Showing $1 - $2 out of $3",
+  "paymentHomeCreditCardTab": "Credit cards",
+  "paymentHomeGiftCardTab": "Gift cards",
+  "paymentMethodsEmptyStateDescription": "Keep your card information safe while you shop across devices",
+  "paymentMethodsEmptyStateTitle": "Add a payment method to get started with Wallet",
+  "paymentMethodsFeedbackOption1": "It's difficult to add a new card",
+  "paymentMethodsFeedbackOption2": "It's difficult to save a card to my Microsoft account",
+  "paymentMethodsFeedbackOption3": "I can't find where to edit or delete a card",
+  "paymentMethodsFeedbackOption4": "I get an error when saving or deleting a card",
+  "paymentMethodsFeedbackOption5": "Other",
+  "paymentsMethodsPagePaymentsCardsTabPaymentsSettingsButtonText": "Payment card settings",
+  "paymentsMethodsPagePaymentsCardsTabTitleText": "Your saved cards",
+  "pendingCashback": "+$1 pending",
+  "qrcodeDescription": "QR Code graphic. Scan the QR code to view and manage the passwords on your phone.",
+  "qrcodeSectionDescription": "You can easily access your passwords everywhere in Microsoft Edge mobile app.",
+  "qrcodeSectionDescription2": "Easy access to all your digital assets on the Edge mobile app.",
+  "qrcodeSectionTitle": "Scan the QR code to view and manage the passwords on your phone!",
+  "qrcodeSectionTitle2": "Scan the QR code to view and manage passwords on your phone!",
+  "recentChanges": "Recent changes",
+  "reload": "Reload",
+  "removeCard": "Remove card",
+  "removeCardFromMSA": "This payment method is associated with an active subscription. To remove this card from your Wallet, you must first change the subscription in your Microsoft account to a new payment method.",
+  "removeCardFromMSATitle": "Remove this card from your Microsoft account",
+  "removeCardFromMSAUnknownErrorMessage": "To remove this card from your Wallet, you need to remove it from your Microsoft account.",
+  "removeCardFromWalletHub": "Are you sure you want to remove this card from your Wallet?",
+  "removeCardWithSubscription": "To remove this card from your Wallet, you need to update its payment method in your Microsoft account.",
+  "removeCardWithSubscriptionTitle": "This card is used with a subscription",
+  "removeCryptoWalletButton": "Remove",
+  "removeCryptoWalletFromBrowserTitle": "Crypto Wallet will be removed from Browser",
+  "removeOrderModalDescription": "Once removed, you won't be able to view updates about this order's status.",
+  "removeOrderModalSuccessMessage": "Order removed from tracking list",
+  "removeOrderModalTitle": "Remove tracked order?",
+  "removeSuccessfully": "Removed successfully",
+  "removeTrackingButtonDescription": "Remove Tracking for $1",
+  "removingCryptoWalletProcessTitle": "By proceeding:",
+  "reviewCardInfoFloatingBanner": "Review your card info before you save it.",
+  "saveCardToMicrosoftNotAvailableRegion": "Saving to Microsoft account is not currently available for cards in this billing address region.",
+  "savingsStatementResponsive": "Save up to $1 a year",
+  "savingsUpsellTileResonsiveText1": "Auto applied coupons at checkout",
+  "savingsUpsellTileResonsiveText2": "Cashback on select purchases",
+  "savingsUpsellTileResonsiveText3": "Personalised deals on products",
+  "securityRecoveryButtonLabel": "View recovery phrase",
+  "securityRecoverySubtitle": "Enter your password to view your recovery phrase",
+  "settingsLessSettingsButtonText": "Less settings",
+  "settingsMicrofeedbackDislikeOptionPasswords": "I do not like the extra step to access passwords",
+  "settingsMicrofeedbackDislikeOptionPayments": "I do not like the extra step to access payments methods",
+  "settingsMicrofeedbackDislikeOptionPersonalInfo": "I do not like the extra step to access personal information",
+  "settingsMigrationBannerAction": "Set default",
+  "settingsMigrationBannerTitle": "Set Wallet as the default experience for managing your personal info and assets?",
+  "settingsMoreSettingsButtonText": "More settings",
+  "settingsPasswordsAutoSaveDisableDescription": "Microsoft Edge will no longer automatically save passwords. You can still save passwords manually - Edge will now ask for your preferences as you browse.",
+  "settingsPasswordsAutoSavePasswords": "Automatically save passwords",
+  "settingsPasswordsAutofillPasswords": "Autofill passwords and passkeys",
+  "settingsPasswordsAutofillPasswordsAutofillOption": "Fill website password and sign in automatically, or suggest available passkeys",
+  "settingsPasswordsAutofillPasswordsAutofillOptionTooltip": "Your saved passwords get auto-filled in web forms. Also, you can automatically sign-in to websites where this functionality exists.",
+  "settingsPasswordsAutofillPasswordsDescription": "Allow Microsoft Edge to automatically fill passwords and suggest available passkeys.",
+  "settingsPasswordsAutofillPasswordsPromptCustomPasswordNoSyncDescription": "You're not syncing your passwords. If you forget your customised primary password, we won't be able to recover your data.",
+  "settingsPasswordsAutofillPasswordsPromptCustomPasswordOption": "Prompt for the customised primary password before filling website password",
+  "settingsPasswordsAutofillPasswordsPromptDevicePasswordOption": "Prompt for the device password before filling website password",
+  "settingsPasswordsChangePrimaryPassword": "Change primary password",
+  "settingsPasswordsChangePrimaryPasswordTitle": "Change your primary password",
+  "settingsPasswordsConfirmNewPrimaryPassword": "Confirm new primary password",
+  "settingsPasswordsCreateOrChangePrimaryPasswordNote": "Note: Your primary password will be saved only on this device and isn't shared with Microsoft. If you're using multiple devices or profiles, you'll need to use a separate primary password for each.",
+  "settingsPasswordsCreatePrimaryPasswordTitle": "Create primary password",
+  "settingsPasswordsCurrentCustomPasswordErrorMessage": "Password entered is incorrect. Please try again.",
+  "settingsPasswordsCustomPasswordLengthErrorMessage": "Enter at least 4 characters",
+  "settingsPasswordsCustomPasswordMismatchedMessage": "Please make sure your passwords match.",
+  "settingsPasswordsEnableSavePasswords": "Offer to save passwords",
+  "settingsPasswordsEnableSavePasswordsDescription": "Allow Microsoft Edge to save your passwords and help keep them secure",
+  "settingsPasswordsEnterCurrentPrimaryPassword": "Enter current primary password",
+  "settingsPasswordsEnterNewPrimaryPassword": "Enter new primary password",
+  "settingsPasswordsEnterNewPrimaryPasswordPlaceholder": "Min. 4 characters (ex: 123abc)",
+  "settingsPasswordsGoToSyncSettingsLinkText": "Go to sync settings",
+  "settingsPasswordsLeakDetection": "Scan for leaked passwords",
+  "settingsPasswordsLeakDetectionDescription": "We check your passwords saved in Edge against a known repository of exposed credentials and alert you if a match is found.",
+  "settingsPasswordsLeakDetectionDisabledDescription": "To use this setting, sign in to Microsoft Edge",
+  "settingsPasswordsPrimaryPasswordChangedMessage": "Customised primary password changed",
+  "settingsPasswordsPrimaryPasswordCreatedMessage": "Customised primary password created",
+  "settingsPasswordsPrimaryPasswordForgetLinkText": "Forgot your primary password?",
+  "settingsPasswordsPrimaryPasswordWarningContent": "If you forget your primary password, you'll need to delete and create a new Edge profile. Your primary password will be saved only on this device and isn't shared with Microsoft. If you're using multiple devices or profiles, you'll need to use a separate primary password for each.",
+  "settingsPasswordsPrimaryPasswordWarningTitle": "Your primary password is not recoverable",
+  "settingsPasswordsPromptCustomPasswordOption": "Prompt for the customised primary password before viewing or filling website password",
+  "settingsPasswordsPromptDevicePasswordOption": "Prompt for the device sign-in options before viewing or filling website password",
+  "settingsPasswordsPromptOptionAlways": "Always ask permission",
+  "settingsPasswordsPromptOptionOnce": "Ask permission once per browsing session",
+  "settingsPasswordsRemovedPrimaryPasswordMessage": "Customised primary password removed",
+  "settingsPasswordsShowRevealButton": "Show the \"Reveal password\" button in password fields",
+  "settingsPasswordsShowRevealButtonDescription": "Selecting this button shows what you've typed. Some sites may override this setting",
+  "settingsPasswordsSuggestStrong": "Suggest strong passwords",
+  "settingsPasswordsSuggestStrongDescription": "Microsoft Edge will suggest strong passwords and, if you choose to use them, they'll be saved and filled automatically next time",
+  "settingsPasswordsSuggestStrongDisabledDescription": "Password suggestions work when Password Sync and Offer to save passwords are both set to on",
+  "settingsPasswordsSuggestStrongOffMessage": "Strong password suggestions are off",
+  "settingsPasswordsViewAndAutofillPasswords": "View and autofill passwords and passkeys",
+  "settingsPersonalInfoAISuggestion": "Enable AI-powered autofill suggestions",
+  "settingsPersonalInfoAISuggestionDescription": "Allows AI technology to predict and fill in forms and text fields to enhance browsing experience. Your personal data is secure and won’t be used elsewhere. Please verify AI suggestions for accuracy.",
+  "settingsPersonalInfoAutofillInfo": "Automatically fill my info on sign up forms",
+  "settingsPersonalInfoAutofillInfoDescription": "Adds saved basic info and chooses a strong password (if \"Suggest strong passwords\" is on).",
+  "settingsPersonalInfoSaveBasicInfo": "Save and fill basic info",
+  "settingsPersonalInfoSaveBasicInfoDescription": "Also saves phone numbers, email addresses and delivery addresses",
+  "settingsWalletFeedbackDislikeCannotAccess": "Cannot access data with primary password or PIN",
+  "settingsWalletFeedbackDislikeDataLost": "Previously saved data in Wallet is lost",
+  "settingsWalletFeedbackDislikeSecurityConcern": "Security concern with saving data",
+  "settingsWalletFeedbackDislikeTurnOnByDefault": "Wallet is turned on by default",
+  "shoppingDealsNav": "Shopping deals",
+  "shortcutSettingsDescription": "To get here quicker, add a shortcut to Microsoft Wallet",
+  "shortcutSettingsTitle": "Add shortcut",
+  "showCvv": "Show",
+  "showLessText": "Show less",
+  "showMoreText": "Show more",
+  "signInUpsellButtonText": "Sign in",
+  "signInUpsellDescription": "Sign in to back up your browsing data and see your favourites, passwords, history, and more on all your devices.",
+  "signInUpsellTitle": "Sign in with your Microsoft account",
+  "statusBarExploreDealsButton": "Explore deals for Microsoft Cashback",
+  "statusBarRedeemButton": "Redeem Microsoft Rewards",
+  "syncPending": "Sync pending",
+  "syncPendingDescription": "We'll keep trying to sync your card info.",
+  "tagBeta": "Beta",
+  "ticketsReservationsNav": "Tickets and reservations",
+  "tokenHistoryCreateCurrentValueLabel": "New card number ends in $1",
+  "tokenHistoryCreatePreviousValueLabel": "Old card number ended in $1",
+  "tokenHistoryCreateTitle": "Your virtual card number has been updated by $1",
+  "tokenHistoryCreateTitleCoherence": "Card number updated by $1",
+  "tokenHistoryExpirationDateChangeLabel": "It'll now expire on $1",
+  "tokenHistoryExpirationDateChangeTitle": "Your card's expiration date has been updated",
+  "tokenHistoryExpirationDateChangeTitleCoherence": "Expiration date updated",
+  "tokenHistoryUpdateLabel": "Virtual card ends in $1",
+  "tokenHistoryUpdateTitle": "Your virtual card has been generated.",
+  "tokenHistoryUpdateTitleCoherence": "Virtual card generated",
+  "tokenizedSuccessModalDescription": "Your card now has a virtual card number which will be inserted automatcially when checking out on Edge.",
+  "tokenizedSuccessModalDescriptionForRewards": "Your card has a virtual card number that's entered automatically when you purchase through Microsoft Edge. You also earned 20 Microsoft Rewards points!",
+  "tokenizedSuccessModalTitle": "Virtual card activated!",
+  "totalPoints": "Total points",
+  "trackOrderButton": "Track order",
+  "trackOrderSubTitle": "Automatically track your order when you purchase from certain sites",
+  "trackOrderTitle": "Wallet helps track your order",
+  "uninstallCryptoWalletFailedError": "Removing Crypto Wallet fails. Please try it again",
+  "updateBillingAddressDescription": "To update billing address, go to your $1.",
+  "updateBillingInformationSuccess": "All set! Your billing information has been updated",
+  "updateTokenizedCardBillingAddressFailed": "Unable to update card's address. Please check the information is correct and try again.",
+  "updateTokenizedPartialCardCvvRequired": "To update this card, enter the CVV security code associated with your $1 ending in $2.",
+  "updateVirtualCardNicknameSuccess": "All set! Your nickname has been updated.",
+  "updateVirtualCardSuccess": "All set! Your virtual card has been updated",
+  "updatingBillingInformation": "Updating billing information…",
+  "updatingVirtualCard": "Updating virtual card…",
+  "useVirtualCardDescription": "Use this virtual card when making purchases on Microsoft Edge.",
+  "verifyAndEnroll": "Verify and enrol",
+  "verifyButtonLabel": "Verify",
+  "verifyTokenizedModalDescription": "When shopping online, Edge can substitute your card number with a virtual card number. If the merchant has a data breach, this can help protect your true card details. Your card issuer may send you a verification code.",
+  "verifyTokenizedModalTitle": "Check out safely with virtual card?",
+  "viewHistory": "View history",
+  "viewRecoverPhrase": "Recovery phrase",
+  "virtualCard": "Virtual card",
+  "virtualCardHistoryTitle": "Virtual card history",
+  "walletComponentUpdateBannerAction": "Refresh now",
+  "walletComponentUpdateBannerTitle": "An update is available for Wallet. Please refresh this page to use the latest version.",
+  "walletOrdersTrackingNav": "Order tracking",
+  "walletPasswordSearchResult": "$1 result in Passwords matches your search",
+  "walletPasswordSearchResults": "$1 results in Passwords match your search",
+  "walletPaymentSearchResult": "$1 result in Payment methods matches your search",
+  "walletPaymentSearchResults": "$1 results in Payment methods match your search",
+  "walletPersonalInfoSearchResult": "$1 result in Personal Info matches your search",
+  "walletPersonalInfoSearchResults": "$1 results in Personal Info match your search",
+  "walletSearchResultsClear": "Clear",
+  "walletSearchResultsCleared": "Search results have been cleared",
+  "walletSettingsNav": "Settings",
+  "walletSettingsSearchResults": "Showing settings which match your search",
+  "walletViewAllText": "View all",
+  "warningLevel": "Important:",
+  "warningMessage": "Ensure you have your recovery phrase to regain access to your Crypto Wallet."
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Loading percentage: 0
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameMapManager:Update()
+
+Loading Complete = False
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+GrapplingHook:GrappleInput(CallbackContext)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.InputInteractionContext:PerformedAndStayPerformed()
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfInteraction(InputActionPhase, TriggerState&, InputActionPhase, Boolean)
+UnityEngine.InputSystem.Interactions.PressInteraction:Process(InputInteractionContext&)
+UnityEngine.InputSystem.InputActionState:ProcessInteractions(TriggerState&, Int32, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.LowLevel.InputState:Change(InputControl, TState&, InputUpdateType, InputEventPtr)
+UnityEngine.InputSystem.FastMouse:OnStateEvent(InputEventPtr)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+Cannot complete action because client is not active. This may also occur if the object is not yet initialized, has deinitialized, or if it does not contain a NetworkObject component.
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning(String)
+System.Action`1:Invoke(T)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSyste

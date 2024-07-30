@@ -1,0 +1,538 @@
+{
+  "tutorials": [
+    {
+      "surfaces": {
+        "in_app_panel": {
+          "name": "Cortar una persona con la herramienta Varita mágica",
+          "version": "2.1.0",
+          "image": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop/thumbnail1.jpg",
+          "content": [
+            {
+              "description": "Seleccionar un fondo sencillo con la Varita mágica es con frecuencia la forma más rápida de crear una selección del sujeto principal. ",
+              "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-2",
+              "title": "Seleccionar el cielo",
+              "taskList": {
+                "tasks": [
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-2-task-1",
+                    "coachmark": {
+                      "content": "Seleccione la {magicWandTool}. Si esta herramienta ya está seleccionada, seleccione otra y, a continuación, haga clic de nuevo en esta herramienta.",
+                      "position": {
+                        "type": "tool",
+                        "id": "magicWandTool"
+                      },
+                      "type": "text",
+                      "key": "coachmark-1"
+                    },
+                    "successConditions": [
+                      {
+                        "event": "select",
+                        "descriptor": {
+                          "null": {
+                            "_ref": "magicWandTool"
+                          }
+                        }
+                      }
+                    ],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-2-task-2",
+                    "description": "If you don’t see the Magic Wand, right-click the tool icon. Hover over the blue bubble to hide it, and choose the Magic Wand from the flyout menu.",
+                    "coachmark": {},
+                    "successConditions": [],
+                    "type": "Note"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-2-task-3",
+                    "coachmark": {
+                      "content": "Establezca la Tolerancia en 50. De esta forma se cambia la sensibilidad de la Varita mágica.     Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "view",
+                        "name": "magicWandTool",
+                        "arrow": "top-left",
+                        "arrowOrientation": "vertical",
+                        "optionsBarPathId": "options.subViews[0].subViews[4].subViews[5]",
+                        "panel": "options"
+                      },
+                      "type": "text",
+                      "key": "coachmark-3"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-2-task-4",
+                    "coachmark": {
+                      "content": "Haga clic en el cielo azul entre la rodilla y la mano. La Varita mágica tomará una muestra de los píxeles en los que ha hecho clic y seleccionará todos los píxeles contiguos que se encuentren dentro del rango de tolerancia especificado.     Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "view",
+                        "name": "magicWandTool",
+                        "arrow": "top-left",
+                        "arrowOrientation": "vertical",
+                        "optionsBarPathId": "options.subViews[0].subViews[4].subViews[3].subViews[0]",
+                        "panel": "options"
+                      },
+                      "type": "text",
+                      "key": "coachmark-4"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-2-task-5",
+                    "coachmark": {
+                      "content": "Click the blue sky between the knee and the hand. The Magic Wand will sample the pixel you clicked on and select all the contiguous pixels that fall within the Tolerance range you specified.     Click {NEXT} to continue.",
+                      "position": {
+                        "type": "canvas",
+                        "arrow": "top-left",
+                        "arrowOrientation": "horizontal",
+                        "offset": {
+                          "left": "50%",
+                          "top": "34%"
+                        }
+                      },
+                      "type": "text",
+                      "key": "coachmark-5"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Es posible que haya que modificar la selección inicial realizada con la Varita mágica. Utilizará dos métodos para ampliar la selección y así incluirá todo el cielo.",
+              "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-3",
+              "title": "Modificar la selección",
+              "taskList": {
+                "tasks": [
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-3-task-1",
+                    "coachmark": {
+                      "content": "Seleccione {1033}. Esto aumentará la selección para incluir la mayoría de las áreas del cielo que no se seleccionaron mediante la herramienta Varita mágica.",
+                      "position": {
+                        "type": "appmenu",
+                        "name": "select"
+                      },
+                      "type": "text",
+                      "key": "coachmark-1"
+                    },
+                    "successConditions": [
+                      {
+                        "event": "invokeCommand",
+                        "descriptor": {
+                          "commandID": 1033,
+                          "_isCommand": false,
+                          "kcanDispatchWhileModal": true
+                        }
+                      }
+                    ],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-3-task-2",
+                    "coachmark": {
+                      "content": "Haga clic en el icono Añadir a la selección (el segundo desde la izquierda en este grupo de iconos) para configurar la Varita mágica y añadir la selección existente.     Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "view",
+                        "name": "magicWandTool",
+                        "arrow": "top-left",
+                        "arrowOrientation": "vertical",
+                        "optionsBarPathId": "options.subViews[0].subViews[4].subViews[0].subViews[0].subViews[2]",
+                        "panel": "options"
+                      },
+                      "type": "text",
+                      "key": "coachmark-2"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-3-task-3",
+                    "coachmark": {
+                      "content": "Haga clic en cada una de las dos áreas no seleccionadas del cielo entre las piernas del esquiador de snowboard y el brazo que sujeta la tabla para añadirlas a la selección.     Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "canvas",
+                        "arrow": "top-left",
+                        "arrowOrientation": "horizontal",
+                        "offset": {
+                          "left": "41%",
+                          "top": "62%"
+                        }
+                      },
+                      "type": "text",
+                      "key": "coachmark-3"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-3-task-4",
+                    "coachmark": {
+                      "content": "Seleccione {1018}. Esta acción cambiará la selección del cielo a su opuesta, el esquiador de snowboard.",
+                      "position": {
+                        "type": "appmenu",
+                        "name": "select"
+                      },
+                      "type": "text",
+                      "key": "coachmark-4"
+                    },
+                    "successConditions": [
+                      {
+                        "event": "invokeCommand",
+                        "descriptor": {
+                          "commandID": 1018,
+                          "_isCommand": false,
+                          "kcanDispatchWhileModal": true
+                        }
+                      }
+                    ],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-3-task-5",
+                    "coachmark": {
+                      "content": "Estas técnicas de selección funcionan bien en las fotos en las que el sujeto principal se encuentra contra un fondo sencillo y ordenado, como el cielo de esta escena.   Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "canvas",
+                        "arrow": "top-left",
+                        "arrowOrientation": "horizontal",
+                        "offset": {
+                          "left": "57%",
+                          "top": "35%"
+                        }
+                      },
+                      "type": "text",
+                      "key": "coachmark-5"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Convierta la selección activa en una máscara de capa para mostrar al esquiador de snowboard y ocultar el fondo.",
+              "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-4",
+              "title": "Añadir una máscara de capa",
+              "taskList": {
+                "tasks": [
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-4-task-1",
+                    "coachmark": {
+                      "content": "Haga clic en el icono Añadir máscara de capa para añadir una máscara de capa en función de la selección actual.     Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "view",
+                        "arrow": "top-left",
+                        "arrowOrientation": "horizontal",
+                        "panel": "layers",
+                        "viewID": "mask"
+                      },
+                      "type": "text",
+                      "key": "coachmark-1"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-4-task-2",
+                    "coachmark": {
+                      "content": "Puede ver la nueva máscara de capa a la derecha de la miniatura de capa del esquiador de snowboard. El blanco muestra las áreas que se han seleccionado. El negro muestra las partes que no se han seleccionado y que ahora quedan ocultas mediante la máscara.     Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "view",
+                        "arrow": "top-left",
+                        "arrowOrientation": "horizontal",
+                        "panel": "layers",
+                        "viewID": "layr"
+                      },
+                      "type": "text",
+                      "key": "coachmark-2"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  },
+                  {
+                    "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-4-task-3",
+                    "coachmark": {
+                      "content": "Al utilizar la máscara de capa para cortar un sujeto del fondo se dispone de mayor flexibilidad que al borrar los píxeles porque es una opción no destructiva y le permite editar y mejorar la máscara de capa.     Haga clic en {NEXT} para continuar.",
+                      "position": {
+                        "type": "canvas",
+                        "arrow": "top-left",
+                        "arrowOrientation": "horizontal",
+                        "offset": {
+                          "left": "55%",
+                          "top": "36%"
+                        }
+                      },
+                      "type": "text",
+                      "key": "coachmark-3"
+                    },
+                    "successConditions": [],
+                    "type": "Step"
+                  }
+                ]
+              }
+            },
+            {
+              "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop-step-5",
+              "title": "¡Bien hecho! Ha seleccionado el cielo con la Varita mágica, ha modificado e invertido la selección y, a continuación, ha añadido una máscara de capa para mostrar al esquiador de snowboard y ocultar el fondo original.",
+              "fallbackTitle": "¡Bien hecho! Ha seleccionado el cielo con la Varita mágica, ha modificado e invertido la selección y, a continuación, ha añadido una máscara de capa para mostrar al esquiador de snowboard y ocultar el fondo original.",
+              "credit": "Adobe Stock: lulu "
+            }
+          ],
+          "client": "Learn",
+          "key": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop",
+          "landingStep": {
+            "description": "Utilice la herramienta Varita mágica para seleccionar un esquiador de snowboard con un fondo sencillo y eliminar el fondo original con una máscara de capa.",
+            "image": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop/thumbnail1.jpg",
+            "key": "step-1",
+            "title": "Cortar una persona con la herramienta Varita mágica",
+            "coachmark": {
+              "content": "Haga clic en {NEXT} para comenzar.",
+              "position": {
+                "type": "view",
+                "arrow": "top-right",
+                "arrowOrientation": "vertical",
+                "panel": "panelid.static.learn",
+                "viewID": "next"
+              },
+              "type": "text",
+              "key": "coachmarkKey"
+            }
+          },
+          "author": {
+            "name": "Colin Smith",
+            "avatar": "https://utut-service.adobe.com/api/user/avatar/73AE0D2F427D0D17992016B8.jpg",
+            "bio": "https://utut-service.adobe.com/api/user/avatar/bio/73AE0D2F427D0D17992016B8.json",
+            "badge": "https://utut-service.adobe.com/api/user/avatar/badge/73AE0D2F427D0D17992016B8.svg"
+          },
+          "type": "Tutorial",
+          "locale": "es_ES",
+          "template": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop/v3_cut-out-a-snowboarder.psdt"
+        },
+        "in_app_panels": {
+          "live": "8bddc03b-ca53-3a00-9503-7a86d4ec4537",
+          "versions": [
+            2
+          ]
+        },
+        "ids": {
+          "in_app_panels": {
+            "live": "8bddc03b-ca53-3a00-9503-7a86d4ec4537",
+            "versions": [
+              2
+            ]
+          }
+        }
+      },
+      "aem_id": "photoshop/how-to/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop",
+      "metadata": {
+        "formatVersion": "1.0",
+        "descriptions": {
+          "medium": "Utilice la herramienta Varita mágica para seleccionar un esquiador de snowboard con un fondo sencillo y eliminar el fondo original con una máscara de capa.",
+          "short": "Utilice la herramienta Varita mágica para seleccionar un esquiador de snowboard con un fondo sencillo y eliminar el fondo original con una máscara de capa.",
+          "long": "Utilice la herramienta Varita mágica para seleccionar un esquiador de snowboard con un fondo sencillo y eliminar el fondo original con una máscara de capa."
+        },
+        "media_types": [
+          "HandsOn"
+        ],
+        "creative_fields": [
+          "graphic-design",
+          "photography"
+        ],
+        "application": {
+          "fi_code": "photoshop_cc",
+          "sap_code": "PHSP"
+        },
+        "locale": "es_ES",
+        "images": {
+          "hero": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop/thumbnail1.jpg",
+          "thumbnail": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop/hero1.jpg",
+          "heroPath": "assets/LCM-PHXS-25.7-es_ES-2495bb0f-443b-4af6-a32e-24bfb1c91617.jpeg",
+          "thumbnailPath": "assets/LCM-PHXS-25.7-es_ES-ae7c2624-6365-47a3-91a7-c4f00ca0aa50.jpeg"
+        },
+        "title": "Cortar una persona con la herramienta Varita mágica",
+        "platforms": [
+          "in-app"
+        ],
+        "duration_in_seconds": "130",
+        "learning_approach": "interactive-in-app",
+        "related_applications": {
+          "fi_code": [],
+          "sap_code": []
+        },
+        "level": "beginner",
+        "stage": "practice",
+        "source": {
+          "third_party": false,
+          "label": "Adobe.com"
+        },
+        "topics": [
+          "Selections",
+          "Removing backgrounds",
+          "Transparency"
+        ],
+        "urls": {
+          "helpx": "",
+          "helpx_iframe": "",
+          "low_url": "https://creativecloud.adobe.com/es/learn/photoshop/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop"
+        },
+        "taxonomy": {
+          "creative_fields": [
+            {
+              "archived": false,
+              "enName": "Graphic design",
+              "id": "c42a4f725de6414facbd08326ec4cc7f",
+              "internalId": "graphic-design",
+              "name": "Diseño gráfico",
+              "toolType": ""
+            },
+            {
+              "archived": false,
+              "enName": "Photography",
+              "id": "f14741181f3c4b3b8b0218d8bbd24d3a",
+              "internalId": "photography",
+              "name": "Fotografía",
+              "toolType": ""
+            }
+          ],
+          "tasks": [
+            {
+              "archived": false,
+              "enName": "Make selection",
+              "id": "7b638e0b29b5410cbe44e4138c85d670",
+              "internalId": "make-selection",
+              "name": "Realizar selección",
+              "toolType": ""
+            },
+            {
+              "archived": false,
+              "enName": "Change background",
+              "id": "9a8c55397fe54a968daa5590b2c4a0aa",
+              "internalId": "change-background",
+              "name": "Cambiar fondo",
+              "toolType": ""
+            },
+            {
+              "archived": false,
+              "enName": "Refine selection",
+              "id": "7c25d025c4044b798f6b7737c8638e86",
+              "internalId": "refine-selection",
+              "name": "Perfeccionar selección",
+              "toolType": ""
+            },
+            {
+              "archived": false,
+              "enName": "Create layer mask",
+              "id": "da09dab0fe7d4cf39db1de182007bfd8",
+              "internalId": "create-layer-mask",
+              "name": "Crear máscara de capa",
+              "toolType": ""
+            },
+            {
+              "archived": false,
+              "enName": "Use selection with layer mask",
+              "id": "50a72ca28468462dbfbef764989ed84d",
+              "internalId": "use-selection-with-layer-mask",
+              "name": "Usar selección con máscara de capa",
+              "toolType": ""
+            }
+          ],
+          "tools": [
+            {
+              "archived": false,
+              "enName": "Magic Wand Tool",
+              "id": "da9cbfa77af34d1093613791cc11bbb8",
+              "internalId": "magic-wand-tool",
+              "name": "Herramienta Varita mágica",
+              "toolType": "tool"
+            },
+            {
+              "archived": false,
+              "enName": "Magic Wand Options Bar",
+              "id": "0be1be6649354e6ca44a0f516d45b34b",
+              "internalId": "magic-wand-options-bar",
+              "name": "Barra de opciones de Varita mágica",
+              "toolType": "tool"
+            },
+            {
+              "archived": false,
+              "enName": "Layer > Layer Mask > Reveal Selection",
+              "id": "9015093052ab4ad49f59e76a9fe3ba76",
+              "internalId": "layer-layer-mask-reveal-selection",
+              "name": "Capa > Máscara de capa > Descubrir selección",
+              "toolType": "menu"
+            },
+            {
+              "archived": false,
+              "enName": "Select > Inverse",
+              "id": "19cd99b9237c49e387d0e60582b48368",
+              "internalId": "select-inverse",
+              "name": "Selección > Invertir",
+              "toolType": "menu"
+            },
+            {
+              "archived": false,
+              "enName": "Select > Grow",
+              "id": "74ba4ed723de48da9f106fe9b3a457fd",
+              "internalId": "select-grow",
+              "name": "Selección > Extender",
+              "toolType": "menu"
+            },
+            {
+              "archived": false,
+              "enName": "Layers",
+              "id": "7bf6af64c9374df388b8bce29e45d8af",
+              "internalId": "layers",
+              "name": "Capas",
+              "toolType": "panel"
+            }
+          ],
+          "topics": [
+            {
+              "archived": false,
+              "enName": "Selections",
+              "id": "f22fa5991a7345c0a639f887f6ae6cac",
+              "internalId": "selections",
+              "name": "Selecciones",
+              "toolType": ""
+            },
+            {
+              "archived": false,
+              "enName": "Removing backgrounds",
+              "id": "a79c578f6fa24f3183d629807c686e57",
+              "internalId": "removing-backgrounds",
+              "name": "Eliminando fondos",
+              "toolType": ""
+            },
+            {
+              "archived": false,
+              "enName": "Transparency",
+              "id": "a05caf043caa4f3f8ae0779848f83ea5",
+              "internalId": "transparency",
+              "name": "Transparencia",
+              "toolType": ""
+            }
+          ]
+        }
+      },
+      "urls": {
+        "helpx": "",
+        "helpx_iframe": "",
+        "low_url": "https://creativecloud.adobe.com/es/learn/photoshop/in-app/cut-out-a-snowborder-with-the-magic-wand-tool-in-photoshop"
+      },
+      "created_on": "2021-10-01T21:21:01.204Z",
+      "modified_on": "2022-09-22T19:39:10.804Z",
+      "locale": "es_ES",
+      "published_status": "live",
+      "tutorialUUID": "9e05c5e5-7a7e-371f-bc56-e1f5dcfa6f60",
+      "service_uuid": "b40e4584-4e03-39aa-a9bc-915c6f370d83",
+      "version": 2
+    }
+  ],
+  "per_page": 50,
+  "page": 1,
+  "total_objects": 1
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

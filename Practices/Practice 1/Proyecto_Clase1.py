@@ -1,0 +1,2 @@
+print("Bienvenido al generador de nombres a continuacion te haremos unas preguntas para armar el nombre de tu marca")
+print("Buenisimo, el nombre de tu marca podria ser: \'" + input("Escribe el nombre de tu mascota: ") + " " + input("Escribe tu nacionalidad: ") + "\'\n\tEspero que puedas llevar a cabo tu emprendimiento utilizando este nombre de marca")
