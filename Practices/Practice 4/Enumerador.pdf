@@ -1,557 +1,0 @@
-{
-  "tutorials": [
-    {
-      "surfaces": {
-        "in_app_panel": {
-          "name": "Eliminar las manchas de las lentes con el Pincel corrector puntual",
-          "version": "2.1.0",
-          "image": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/remove-lens-spots-with-the-spot-healing-brush/spot-healing-brush_Hero.jpg",
-          "content": [
-            {
-              "description": "Utilice el Zoom y pÃ¡selo por la imagen para localizar las manchas.",
-              "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-2",
-              "title": "Identificar las manchas de polvo en la imagen",
-              "taskList": {
-                "tasks": [
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-2-task-1",
-                    "coachmark": {
-                      "content": "Seleccione la {zoomTool}. Si esta herramienta ya estÃ¡ seleccionada, haga clic en otra herramienta y luego vuelva a la herramienta Zoom.",
-                      "position": {
-                        "type": "tool",
-                        "id": "zoomTool"
-                      },
-                      "type": "text",
-                      "key": "coachmark-1"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "select",
-                        "descriptor": {
-                          "null": {
-                            "_ref": "zoomTool"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-2-task-2",
-                    "coachmark": {
-                      "content": "Haga clic una vez en las manchas del cielo sobre las montaÃ±as nevadas para hacer Zoom y verlas mÃ¡s de cerca. Es mÃ¡s fÃ¡cil ver las manchas cuando se acerca la imagen. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "28%",
-                          "top": "17%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-2"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-2-task-3",
-                    "coachmark": {
-                      "content": "Seleccione la {handTool}.",
-                      "position": {
-                        "type": "tool",
-                        "id": "handTool"
-                      },
-                      "type": "text",
-                      "key": "coachmark-3"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "select",
-                        "descriptor": {
-                          "null": {
-                            "_ref": "handTool"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-2-task-4",
-                    "coachmark": {
-                      "content": "Arrastre la imagen en el cielo por encima de las montaÃ±as nevadas para ver mejor los puntos que hay que corregir: la mancha circular y una raya blanca debajo de ella y a la derecha. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "vertical",
-                        "offset": {
-                          "left": "24%",
-                          "top": "24%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-4"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  }
-                ]
-              }
-            },
-            {
-              "description": "Un rÃ¡pido clic o una pasada con la herramienta Pincel corrector puntual elimina una mancha y la sustituye por pÃ­xeles que se mezclan perfectamente con el fondo.",
-              "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3",
-              "title": "Pasel el pincel por las manchas",
-              "taskList": {
-                "tasks": [
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-1",
-                    "coachmark": {
-                      "content": "Seleccione la {spotHealingBrushTool}. Si no la ve, haga clic con el botÃ³n derecho en el icono de esta herramienta. A continuaciÃ³n, pase el ratÃ³n por encima de la burbuja azul para ocultarla. A continuaciÃ³n, seleccione el Pincel corrector puntual en el menÃº desplegable.",
-                      "position": {
-                        "type": "tool",
-                        "id": "spotHealingBrushTool"
-                      },
-                      "type": "text",
-                      "key": "coachmark-1"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "select",
-                        "descriptor": {
-                          "null": {
-                            "_ref": "spotHealingBrushTool"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-2",
-                    "coachmark": {
-                      "content": "Compruebe que el botÃ³n DetecciÃ³n de contenido estÃ¡ activado. Si aÃºn no lo estÃ¡, haga clic en Ã©l para establecer el modo en que la herramienta rellenarÃ¡ el Ã¡rea corregida. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "view",
-                        "name": "spotHealingBrushTool",
-                        "arrow": "top-left",
-                        "arrowOrientation": "vertical",
-                        "optionsBarPathId": "options.subViews[0].subViews[4].subViews[4]",
-                        "panel": "options"
-                      },
-                      "type": "text",
-                      "key": "coachmark-2"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-3",
-                    "coachmark": {
-                      "content": "Haga clic para abrir el selector de pinceles preestablecidos.",
-                      "position": {
-                        "type": "view",
-                        "name": "spotHealingBrushTool",
-                        "arrow": "top-left",
-                        "arrowOrientation": "vertical",
-                        "optionsBarPathId": "options.subViews[0].subViews[4].subViews[0].subViews[0].subViews[1]",
-                        "panel": "options"
-                      },
-                      "type": "text",
-                      "key": "coachmark-3"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "toggleBrushesFlyout",
-                        "descriptor": {
-                          "_isCommand": false,
-                          "state": {
-                            "_enum": "state",
-                            "_value": "enter"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-4",
-                    "coachmark": {
-                      "content": "Ajuste el tamaÃ±o del pincel a unos 55 px, para que sea ligeramente mÃ¡s grande que el punto redondo, y establezca la Dureza al 100Â %. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "13%",
-                          "top": "0%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-4"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-5",
-                    "coachmark": {
-                      "content": "Haga clic una vez en el punto para eliminarlo. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "19%",
-                          "top": "13%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-5"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-6",
-                    "coachmark": {
-                      "content": "Vuelva a hacer clic en el selector de pinceles para cambiar el tamaÃ±o del pincel.",
-                      "position": {
-                        "type": "view",
-                        "name": "spotHealingBrushTool",
-                        "arrow": "top-left",
-                        "arrowOrientation": "vertical",
-                        "optionsBarPathId": "options.subViews[0].subViews[4].subViews[0].subViews[0].subViews[1]",
-                        "panel": "options"
-                      },
-                      "type": "text",
-                      "key": "coachmark-6"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "toggleBrushesFlyout",
-                        "descriptor": {
-                          "_isCommand": false,
-                          "state": {
-                            "_enum": "state",
-                            "_value": "enter"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-7",
-                    "coachmark": {
-                      "content": "Reduzca el tamaÃ±o del pincel a unos 20 px, para que sea un poco mÃ¡s grande que el ancho de la raya restante. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "13%",
-                          "top": "0%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-7"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-3-task-8",
-                    "coachmark": {
-                      "content": "PÃ¡selo sobre la raya para eliminarla. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "27%",
-                          "top": "22%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-8"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  }
-                ]
-              }
-            },
-            {
-              "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush-step-4",
-              "title": "Las manchas de polvo pueden aparecer en cualquier foto. Con un par de pasadas rÃ¡pidas del Pincel corrector puntual, Ã©stas desaparecen y usted puede centrarse en la belleza de la escena en lugar de en las molestas manchas del cielo.",
-              "fallbackTitle": "Las manchas de polvo pueden aparecer en cualquier foto. Con un par de pasadas rÃ¡pidas del Pincel corrector puntual, Ã©stas desaparecen y usted puede centrarse en la belleza de la escena en lugar de en las molestas manchas del cielo.",
-              "credit": "Adobe Stock: davyladd, aetb"
-            }
-          ],
-          "client": "Learn",
-          "key": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush",
-          "landingStep": {
-            "description": "Â¿Ve manchas? El polvo en el objetivo o el sensor de su cÃ¡mara puede crear manchas no deseadas en sus fotos. LÃ­mpielas con la herramienta Pincel corrector puntual.",
-            "image": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/remove-lens-spots-with-the-spot-healing-brush/spot-healing-brush_Hero.jpg",
-            "key": "step-1",
-            "title": "Eliminar las manchas de las lentes con el Pincel corrector puntual",
-            "coachmark": {
-              "content": "Haga clic en {NEXT} para comenzar.",
-              "position": {
-                "type": "view",
-                "arrow": "top-right",
-                "arrowOrientation": "vertical",
-                "panel": "panelid.static.learn",
-                "viewID": "next"
-              },
-              "type": "text",
-              "key": "coachmarkKey"
-            }
-          },
-          "author": {
-            "name": "Jeff Carlson",
-            "avatar": "https://utut-service.adobe.com/api/user/avatar/03AE324F44FF894599201549.jpg",
-            "bio": "https://utut-service.adobe.com/api/user/avatar/bio/03AE324F44FF894599201549.json",
-            "badge": "https://utut-service.adobe.com/api/user/avatar/badge/03AE324F44FF894599201549.svg"
-          },
-          "type": "Tutorial",
-          "locale": "es_ES",
-          "template": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/remove-lens-spots-with-the-spot-healing-brush/v2-spot-healing-brush.psdt"
-        },
-        "in_app_panels": {
-          "live": "019c86fd-e4f9-3432-924a-db35abbb46b8",
-          "versions": [
-            2
-          ]
-        },
-        "ids": {
-          "in_app_panels": {
-            "live": "019c86fd-e4f9-3432-924a-db35abbb46b8",
-            "versions": [
-              2
-            ]
-          }
-        }
-      },
-      "aem_id": "photoshop/how-to/in-app/remove-lens-spots-with-the-spot-healing-brush",
-      "metadata": {
-        "formatVersion": "1.0",
-        "descriptions": {
-          "medium": "Â¿Ve manchas? El polvo en el objetivo o el sensor de su cÃ¡mara puede crear manchas no deseadas en sus fotos. LÃ­mpielas con la herramienta Pincel corrector puntual.",
-          "short": "Â¿Ve manchas? El polvo en el objetivo o el sensor de su cÃ¡mara puede crear manchas no deseadas en sus fotos. LÃ­mpielas con la herramienta Pincel corrector puntual.",
-          "long": "Â¿Ve manchas? El polvo en el objetivo o el sensor de su cÃ¡mara puede crear manchas no deseadas en sus fotos. LÃ­mpielas con la herramienta Pincel corrector puntual."
-        },
-        "media_types": [
-          "HandsOn"
-        ],
-        "creative_fields": [
-          "photography"
-        ],
-        "application": {
-          "fi_code": "photoshop_cc",
-          "sap_code": "PHSP"
-        },
-        "locale": "es_ES",
-        "images": {
-          "hero": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/remove-lens-spots-with-the-spot-healing-brush/spot-healing-brush_Hero.jpg",
-          "thumbnail": "https://cc-cdn.adobe.com/graceland/PHSP/en_US/2.0.0/remove-lens-spots-with-the-spot-healing-brush/spot-healing-brush_Thumb.jpg",
-          "heroPath": "assets/LCM-PHXS-25.7-es_ES-ac020980-91cd-4756-9edf-42b48e7a284d.jpeg",
-          "thumbnailPath": "assets/LCM-PHXS-25.7-es_ES-f1955b09-dd4b-46f7-bdcc-fde9dcedad1b.jpeg"
-        },
-        "title": "Eliminar las manchas de las lentes con el Pincel corrector puntual",
-        "platforms": [
-          "in-app"
-        ],
-        "duration_in_seconds": "120",
-        "learning_approach": "interactive-in-app",
-        "related_applications": {
-          "fi_code": [],
-          "sap_code": []
-        },
-        "level": "beginner",
-        "stage": "practice",
-        "source": {
-          "third_party": false,
-          "label": "Adobe.com"
-        },
-        "topics": [
-          "Photo retouching",
-          "Spot removal"
-        ],
-        "urls": {
-          "helpx": "",
-          "helpx_iframe": "",
-          "low_url": "https://creativecloud.adobe.com/es/learn/photoshop/in-app/remove-lens-spots-with-the-spot-healing-brush"
-        },
-        "taxonomy": {
-          "creative_fields": [
-            {
-              "archived": false,
-              "enName": "Photography",
-              "id": "f14741181f3c4b3b8b0218d8bbd24d3a",
-              "internalId": "photography",
-              "name": "FotografÃ­a",
-              "toolType": ""
-            }
-          ],
-          "tasks": [
-            {
-              "archived": false,
-              "enName": "Remove small object",
-              "id": "1c60fa55ede3497e8f12404922ff43d9",
-              "internalId": "remove-small-object",
-              "name": "Eliminar objeto pequeÃ±o",
-              "toolType": ""
-            }
-          ],
-          "tools": [
-            {
-              "archived": false,
-              "enName": "Zoom Tool",
-              "id": "e31dcd943c494dcdae1c3266f404dd9c",
-              "internalId": "zoom-tool",
-              "name": "Herramienta Zoom",
-              "toolType": "tool"
-            },
-            {
-              "archived": false,
-              "enName": "Hand Tool",
-              "id": "2d4b90e97f704640b461ee22acacd050",
-              "internalId": "hand-tool",
-              "name": "Herramienta Mano",
-              "toolType": "tool"
-            },
-            {
-              "archived": false,
-              "enName": "Spot Healing Brush Tool",
-              "id": "d3d267cd95894b4baccda0279865f78c",
-              "internalId": "spot-healing-brush-tool",
-              "name": "Herramienta Pincel corrector puntual",
-              "toolType": "tool"
-            },
-            {
-              "archived": false,
-              "enName": "Spot Healing Brush Options Bar",
-              "id": "f6dd8a92ef4646a783da24dfa246133e",
-              "internalId": "spot-healing-brush-options-bar",
-              "name": "Barra de opciones de Pincel corrector puntual",
-              "toolType": "tool"
-            }
-          ],
-          "topics": [
-            {
-              "archived": false,
-              "enName": "Photo retouching",
-              "id": "30455ab0b3f74e63a1e0618c6390bafd",
-              "internalId": "retouching",
-              "name": "Retocar fotografÃ­as",
-              "toolType": ""
-            },
-            {
-              "archived": false,
-              "enName": "Spot removal",
-              "id": "16a74a058dfe48ed9f6747a28ad94618",
-              "internalId": "spot-removal",
-              "name": "EliminaciÃ³n de manchas",
-              "toolType": ""
-            }
-          ]
-        }
-      },
-      "urls": {
-        "helpx": "",
-        "helpx_iframe": "",
-        "low_url": "https://creativecloud.adobe.com/es/learn/photoshop/in-app/remove-lens-spots-with-the-spot-healing-brush"
-      },
-      "created_on": "2021-10-01T19:42:49.811Z",
-      "modified_on": "2022-09-22T19:25:34.591Z",
-      "locale": "es_ES",
-      "published_status": "live",
-      "tutorialUUID": "fb88086d-6d74-3c13-8408-43d9db645056",
-      "service_uuid": "8c61b87c-ebd0-335b-b451-816cbac70c66",
-      "version": 2
-    }
-  ],
-  "per_page": 50,
-  "page": 1,
-  "total_objects": 1
-}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                MAMÈO  ”©ÆË§º»«§ÊÊºÇÉ
-ª§
-
-Ì·Èª¹§¨«Ë—ºËº‡‰‰ª‡¹˜™§ˆˆ™§É	Ì—¹Ê §É·É°Ì§¹¼°·	§	 §	 §É  §	
-À§	§	 §	  ·	 §Ê  §ÉÀ§	À§	 §À §
-Ë·
-°             x	     ˆ·²  À—‹§   À–€È º Ë ˆœ™ ÌŠœ˜š‰°° ‰€‡¹x Ìœ€—©‡Ì°°€‡¨ˆ À Ì€˜©¹ À	À€ªÉÌ É €°ÌÀ À  °°              QêÂ®®¤«´ˆ4TšM­V‘&ì+©æ4UÒ++­5­hR;ÓhŠY÷¿?¾tæ›V»¤‹JãB"×û>FDŠo&D§Z‹6‰TÒXÔ-¨—eý¾–ssµ¸Öò‡Ðñ;.jðhþ<ìùn¼Í’þã[úÆ¿nÒóâKz&?vhf–úoõ>üÉ–ùè’œa:5Ñêøì–Ž)n>º :þû š¶žüè–ûüYhð‡¦nçíŒ9Ížÿ:4Ñ]ñð]¦sP*Ko¯û@AMÕfIàÒGã*KØg*Ø–Ïªœ¨|³4YRÊúú‚é*IàgeOqÓ~  ªMÜgIû²¢T´¾Ù¿áAÛ\rÇ>K "àà8Oo8+°/š~½ ´TˆãõÕ*K:¸Ki?uPÒjY_Pé`ºça:*ð+B ã %Õ5›wAj=¨Ì•ÆMp·ªXâ– ÕlöÅTPÅ*K4/ÁÝÕïµT
-Èêƒ6@j Šu–"·ÕyPáˆa* °B>û i•ë,"o ß¨é(•l •Ü ¢ÜÎ,ªûÛ2?°PÕi³TÀ`ÑT¤z­³…[Õ JÑvK <aAÁÄ¨^è0Ô·L;ØA•îDÈ’ƒŠAjøz‚Kº74ß$ü@A…îDÈ’ƒŠŒUðÊ,é¦®ßz 2¨HŠŸ{çÓCY"* §*Ø>íª>¸ (ÈŸ5‰nzÛp æl|å’Ÿóº¨~39vgº¢Š{…ZFó0Ô»ÁSùƒóaôè¹´ŒB.Íö¨|Cø†Ýóë¢Q…uº¨Ô¢Q]ja\¨àð ‚‚ ! ‚%R1Ä‹ ¼®gPñ¼  ÄÐÀ$˜€Thxˆ˜¨¸ÈØèø !"§)Û¿Ã A¸àð#$8HX(¨Pƒ[ÄPÀÐØ@ äì€ ôü€ (AF	€3°`@¸ÐÀ@èAÁAÁ$”€ß@Dx °Àà ø‚!" 0‚‚#$@)Vp °Ò<`Ð>Dðú†Nd `lv €zŠ€ 	NƒÆ¡2&Ì`€ôÛ1kÐmÐË©Ê˜@ƒ!„"Þà,ŒeàDNÞ˜°‚îBq?Ãò<°àÊ,8@Ïxˆ˜¨¸ÈØè ø!"(#$8H%Š2@ “_OâÉ+ ]¢Ó"7æ`b:ÔÀ=HÎ§(=<à¢,Þ€ a92&ŠBþ‰"`~à>ÿ†¡ ;ÄÌ€ ÔÜ€ äì€ ôü€¡8!"(‚#$@P‚Z  pv@`€ÀLä´'…r€¸  ‚‚!" P‚cžìÀ€üÁ A,¬9Q $êÁÀ˜D¨“%,ÓI¢0‰Q5&$êíÀ˜D¨“õÃ`1€È¤dh` lpà tŽ
-a;àäz~À ‚†@€ŠŽÀ¥k`•°.ltàÀMYÞh÷"ëÂæCû‡1}Üƒ;J@†fvÀ€z~À ‚†@ Œà 	”Â9QÊ \`à dŽâD`pnpÃÔ‚p`ŒZêPá¼çÁnàð !0‚RCtOÿ† ?ÌÜ€ÁA@#·Ð; À=?à AC @EG`€I" JÏ°ð@¸ÀÀ€à‘AOäO)róÞY1HþÉ™ÝÁÞ»ƒÀÁåî«(’ÿÑ
-«ˆ›NsëiZ°Ð‹«k€±ä4‹3˜Ðà¼‚RTT BƒX€5×^3€'Š#£¢dL5Ú`“(Õ˜DÊ6Á$Q·‚-Ã’n7Àò ›Áˆ¤èƒÒ8°© føÁ+§¨E€6ƒÚl7¸Ü ËƒnC‘¥pm@¶AEýÐŠ v€Ï`Bƒð
-Áiª¬kÀ®A¼ Al¶à)ê9^£€ 6ÙëOLø@5ƒÕX5h×À`ƒˆ@6ƒÙh6¨ÜÀÌo— : tÎ >£„h<¨v°mkªÁ¬ÀAk®¼mœA7éu¤¨€Ó¶§¨À6½î´ x øñ]šn—'<w ·Üá=ÛÔ¨¢àð; xð‚áª·Æ·¤;0»¯¶= E¥v´Ï ¨ ÁíÜRèô>Ø;wÀï ßÁƒ„ `<àxòòûšÎ„Ž °:g©v„ <Hf íºë: v°òàšíëÐÑÚƒ¼z `<àxòƒäÊCÁÞìÓ¨Z¸øÀý`~@à»öäÔª¡EÇLrÆcÏ Á@–Ï*¨àø #8„/ŸQú}ƒ Ã1B 0DHpJæc€¼)¢ù‚yøö
-gø×ˆ½ ¿!ßÄHP!~!ˆÛcÀ³Z  ‚†@³Ù ¤gn0Öø(r4<œØ@Á	°‚‡ß8B$N e¢nÐ|¢€LI”‚0‰QD&$ªÁ˜D¨#“…’`L¢”ROrèÄ-Àà/7€PÃY¼° ÄüÁeÐ8:Æˆc ÷'Ø€à A	(H³ ‚! ‚‚#$@bÌ‰çOTšN”@g¢x:såC™(ÔAh0Q$¶ž(–
-m8€:<°Ð>}ðGN‡‹!²ˆo"ÈN#ø2T0Ì8§Gú¡þ‰ŒPˆ#'Ê÷¶ah/+d´Ö080lÔçA)hˆô7ß,Ø hŠnA,ßà&ñopyø¡¾9vÈÀÀàø@Á ïòCÞ3 @57`€9< Ð>@ðBD0`J[dè`<ãÁ-\8àdŠ/îô`¾Ð¤~„ ´šÀÀ@èðÀ@øÁÁ O‚YL Ä¢l#ÐsÂ!’‰bl(fq@œœ`150SØèø !"#(H‚%T)hxˆ÷ÍÂòÈ@îÅ†Œÿ¢n„Nß' 8œü¬/¸^¾s~#o‚»ˆBKÃ.€ ¥e=hà?E`åE æ¸à57`€9; À=?à AC @Efp…(øb0yÃAÑ£ãàA Ø™¨Ba‰2DÌT´LË Á˜¨¸ÈØè ø!"(#@†a¸ `-¬`aœðÎnÀ v~  	„_@ÐIDåõG ƒ=GR, ÐºaÎ fl àrz€À~8ËJ€ÈgÐ8{$|éFX~Î‘†ê5½7° ç5u?à ç/Ã40P73€ç@C]/á½€‰s˜ÁÀÐàð‚  ‚‚! ‹sˆ˜¨; ˜1ùA`‰úŠ—(#¦ž¥8Œ0ôÜ  èôÀ€ü‡jŠ@è†Aƒ`6Ë¹Ê²Ï á‚a@¶÷ÄÐ€Ì±Àº•ˆØ‚!@­g ñý°Å8Hns@j¥ýI´{`«X\ à`d `hl àpt `x| à‚Š€À	Ž’ @	|F-j¢­Pl? ´†¦Ø§›î5Á(õùSaÜŽAh^58Õ@XƒhÀ5ƒÚllpÜ±˜ø4Fî¨k°µÁŠÈÀ<)g5fÖ€\ƒx 6Ùf<¨mPñÁPq¢4J$êªÁ&QZ0‰kÀLïNÔt}ˆPºúšâÏ
-H3ý	†@ƒHJÌ…^À bj@à ¾|·Ã250ŸW‡~  †Š€ÀÁ¾‚¿‚ô„û0
-ò8è& B-Àà/1  3P@m`/8d<ðÐ<Ã[æ‘ËÂÿC@ì8c	5M¥W"’%’h=±1úÁN”;¦Ôå{'O·šÂ›Z°;=³{ºëdÞÓM%ö¤wÖ›¼Š|&Ô+™FSš´’aÉ,4¸´)7“hU±‰Zb½+¨j®ÎGÊü´TÊ)Õ^ÙÎ
-
-Þ¼®À9•ù\ŒÏSuå`¬ç«	+ŽÆúÎàÏôÂ•j4üók;ª:ñˆvz@´Ó•¸üàÚ4ÏÑ¬èÖ›Ñ¿*®òÚªßææT•«W@Öëýj›Æ4YýîÚ:;»Ä¾}Y`YçùÖ/ƒWÃªO`¹«»úþùÄCa<#U”_Åik†yF¢ ®¾[¦b··D¼5bÝt•ZVaŠ)&¢‰UšÃ´ìLÐÐHrI.~mE ¯ÛNR‘ëºÿµù„*‹Ê4¹¹ôMVã-Õ¯»dNS– «ÌÆÒõxòTÌjÌ*ª‘?y®8–%5[vxíV,c~¹<·Ã6©žOÙÒ\'c /`S™BNðÅ¸rY`•	\ô<šI¡~LE`¯~fÄ²i?êgžûê8‹Ë)ÕþûT`-mÑ3â­/Œ.dý6xaI¼Œ2hŒ_;“KDE ¥ñ4Ç °w4`¬Ÿ p!9k³Òžr`ùŠQÜXƒ_â”´aÕMg™ÛeÖôéš…éOµÝ`0·…eÓ²vúÂúa\»®—]²ªcL/ê•)¯dh,Î²Ò7GÐÞf†%	xSÆ¬°{2€·ÌBéø6Ñ²öD¸EY´K $êô`,5¥ê[u‚+ø¦`‹WÐe.wÕ`z?æt˜_Ÿ­hëõÆ“`ª ‘¦äXØÄnšC{86’’²¬F‚•ƒ¹õb:)·V)æZ&G±L ?MÞ*dXÚG™a¯IÊÓÜ¿ D¢£²æBG¨$ØKc=iP`ŽõA»Ê	ùîAì¦Ø•£´EÛ‰f5ÇY±¿ÙŸZÏúSÿ¾/fÜºö»Ü6ü×šiDD›·æØ#‘ìü7xãá„ºÓÒ³¦">é,Í‚ô©þÇ.ð0ÿ‰æ5ò7¹'IàM¨Oc6"±¼v3yg¢†ü™š5£AšÿJbæsË&#2êþ«êgÕúo„`u¦*pzÔT%©˜_W¾?ÿÀÖHÏD_aÃCXZb¥“hJ±Ô”b%'X•^`‰ˆˆˆˆˆˆŸˆ º                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            tify>s>(Event= 1,PID=10 976,Proc Name=rec uva64.exe,2=0,is windowed Source= -1) succ€ess X	™!°Ž³]¼°«4û
-
-ð…kôß8Ô€ô®ý,“÷˜
-ÁF3‹…;ðõƒ'…\\ .\DISPLA<Y1…	ÿ ÁW  K  H  H± @   "N  €$€€ ` ÐAp:ü÷Ý P€–˜@H  G 0i $ ,x  Is FullScre en(): (T olerance Mode=1,  InPixel s=0, Pro cName=re cuva64.e xe, AppW indowWid th=927, aHeight =675, Mo nitor&38Ž4 R%216 ›s›t_DCS^SizeDiv
-bIs
-ed=0)s öß8†Ô@˜…)(ƒ „“ÐÁ Ý4û  ­òœO7!`ñƒ+ê"ŒI„&0¬"x5‘? h1ä,ÁAÁ    H  ± @   "N  €$€€ ` ÐAà:ü÷Ý P€–˜@H  G 0Øk $
- , Full ScreenDe tectThre ad(): NoPtify>s>( Event=1, PID=1097 6,ProcNa me=recuv a64.exe,2=0,iswi@ndowed S ource=-1 ) succes`s X	 …°Ž³]¼«4,û
-
-ð…kôß8Ô€ô®ý“÷Ë˜
-ÁF‹…;ðõƒ'…\\.\ DISPLAY1…	ÿ ÁX  L  H  I± @   "N  €$€€ ` ÐA#ü÷Ý P€–˜@H  G 0 n $
- , IsFu llScreen (): (Tol eranceMo@de=1,  I nPixels= 0, ProcN ame=recu va64.exe , AppWin dowWidth€=927, a Height=6 75, Moniˆtor&384 Rc%216 ›sC›t_DCS^S@izeDiv
-bIs
-ed=0)ƒ iöß8Ôa@˜…(
-ƒ „“ÐÁÝ4 û  ­òO7§!`ñƒ+:"ŒI„&¬"Lx5‘? hãà-ÁAÁ    H  ± @   "N  €$€€ ` ÐA‹ü÷Ý P€–˜@H  G 0hp $
- , Full ScreenDe tectThre ad(): NoPtify>s>( Event=1, PID=1097 6,ProcNa me=recuv a64.exe,2=0,iswi@ndowed S ource=-1 ) succes`s X	 …°Ž³]¼«4,û
-
-ð…kôß8Ô€ô®ý“÷Ë˜
-ÁF‹…;ðõƒ'…\\.\ DISPLAY1…	ÿ ÁX  L  H  I± @   "N  €$€€ ` ÐA«Òü÷Ý P€–˜@H  G 0°r $ ,I L Is FullScre en(): (T olerance Mode=1,  InPixel s=0, Pro cName=re cuva64.e xe, AppW indowWid th=927, aHeight =675, Mo nitor&38Ž4 R%216 ›s›t_DCS^SizeDiv
-bIs
-ed=0)s öß8†Ô@˜…)(ƒ „“ÐÁ Ý4û  ­òœO7!`ñƒ+ê"ŒI„&0¬"x5‘? haãp+ÁAÁ    H  ± @   "N  €$€€ ` ÐAÀÓü÷Ý P€–˜@H  G 0øt $ ,x  Fu llScreen DetectTh read(): @Notify>s>(Event= 1,PID=10 976,Proc Name=rec uva64.exe,2=0,is windowed Source= -1) succ€ess X	™!°Ž³]¼°«4û
-
-ð…kôß8Ô€ô®ý,“÷˜
-ÁF3‹…;ðõƒ'…\\ .\DISPLA<Y1…	ÿ ÁX  L  H  I± @   "N  €$€€ ` ÐA€3ý÷Ý P€–˜@H  G 0@w $
- , IsFu llScreen (): (Tol eranceMo@de=1,  I nPixels= 0, ProcN ame=recu va64.exe , AppWin dowWidth€=927, a Height=6 75, Moniˆtor&384 Rc%216 ›sC›t_DCS^S@izeDiv
-bIs
-ed=0)ƒ iöß8Ôa@˜…(
-ƒ „“ÐÁÝ4 û  ­òO7§!`ñƒ+:"ŒI„&¬"Lx5‘? hã-ÂCÀ    H  ± @   "N  €$€€ ` ÐAå3ý÷Ý P€–˜@H  G 0ˆy $ ,I L Fu llScreen DetectTh read(): @Notify>s>(Event= 1,PID=10 976,Proc Name=rec uva64.exe,2=0,is windowed Source= -1) succ€ess X	™!°Ž³]¼°«4û
-
-ð…kôß8Ô€ô®ý,“÷˜
-ÁF3‹…;ðõƒ'…\\ .\DISPLA<Y1…	ÿ ÁX  L  H  I± @   "N  €$€€ ` ÐA{hý÷Ý P€–˜@H  G 0Ð{ $ ,x  Is FullScre en(): (T olerance Mode=1,  InPixel s=0, Pro cName=re cuva64.e xe, AppW indowWid th=927, aHeight =675, Mo nitor&38Ž4 R%216 ›s›t_DCS^SizeDiv
-bIs
-ed=0)s öß8†Ô@˜…)(ƒ „“ÐÁ Ý4û  ­òœO7!`ñƒ+ê"ŒI„&0¬"x5‘? haãp+ÁAÁ    H  ± @   "N  €$€€ ` ÐAÜhý÷Ý P€–˜@H  G 0~ $
- , Full ScreenDe tectThre ad(): NoPtify>s>( Event=1, PID=1097 6,ProcNa me=recuv a64.exe,2=0,iswi@ndowed S ource=-1 ) succes`s X	 …°Ž³]¼«4,û
-
-ð…kôß8Ô€ô®ý“÷Ë˜
-ÁF‹…;ðõƒ'…\\.\ DISPLAY1…	ÿ ÁX  L  H  I± @   "N  €$€€ ` ÐA(ºý÷Ý P€–˜@H  G 0`€ $
- , IsFu llScreen (): (Tol eranceMo@de=1,  I nPixels= 0, ProcN ame=recu va64.exe , AppWin dowWidth€=927, a Height=6 75, Moniˆtor&384 Rc%216 ›sC›t_DCS^S@izeDiv
-bIs
-ed=0)ƒ iöß8Ôa@˜…(
-ƒ „“ÐÁÝ4 û  ­òO7§!`ñƒ+:"ŒI„&¬"Lx5‘? hã-ÁAÁ    H  ± @   "N  €$€€ ` ÐAˆºý÷Ý P€–˜@H  G 0¨‚ $
- , Full ScreenDe tectThre ad(): NoPtify>s>( Event=1, PID=1097 6,ProcNa me=recuv a64.exe,2=0,iswi@ndowed S ource=-1 ) succes`s X	 …°Ž³]¼«4,û
-
-ð…kôß8Ô€ô®ý“÷Ë˜
-ÁF‹…;ðõƒ'…\\.\ DISPLAY1…	ÿ ÁX  L  H  I± @   "N  €$€€ ` ÐAÚ0þ÷Ý P€–˜@H  G 0ð„ $
- , IsFu llScreen (): (Tol eranceMo@de=1,  I nPixels= 0, ProcN ame=recu va64.exe , AppWin dowWidth€=927, a Height=6 75, Moniˆtor&384 Rc%216 ›sC›t_DCS^S@izeDiv
-bIs
-ed=0)ƒ iöß8Ôa@˜…(
-ƒ „“ÐÁÝ4 û  ­òO7§!`ñƒ+:"ŒI„&¬"Lx5‘? hã0.ÁAÁ    H  ± @   "N  €$€€ ` ÐA>1þ÷Ý P€–˜@H  G 08‡ $
- , Full ScreenDe tectThre ad(): NoPtify>s>( Event=1, PID=1097 6,ProcNa me=recuv a64.exe,2=0,iswi@ndowed S ource=-1 ) succes`s X	 …°Ž³]¼«4,û
-
-ð…kôß8Ô€ô®ý“÷Ë˜
-ÁF‹…;ðõƒ'…\\.\ DISPLAY1…	ÿ ÁX  L  H  I± @   "N  €$€€ ` ÐAÞaþ÷Ý P€–˜@H  G 0€‰ $ ,x  Is FullScre en(): (T olerance Mode=1,  InPixel s=0, Pro cName=re cuva64.e xe, AppW indowWid th=927, aHeight =675, Mo nitor&38Ž4 R%216 ›s›t_DCS^SizeDiv
-bIs
-ed=0)s öß8†Ô@˜…)(ƒ „“ÐÁ Ý4û  ­òœO7!`ñƒ+ê"ŒI„&0¬"x5‘? haã +ÁAÁ    H  ± @   "N  €$€€ ` ÐAYbþ÷Ý P€–˜@H  G 0È‹ $
- , Full ScreenDe tectThre ad(): NoPtify>s>( Event=1, PID=1097 6,ProcNa me=recuv a64.exe,2=0,iswi@ndowed S ource=-1 ) succes`s X	 …°Ž³]¼«4,û
-
-ð…kôß8Ô€ô®ý“÷Ë˜
-ÁF‹…;ðõƒ'…\\.\ DISPLAY1…	ÿ ÁW  K  H  H± @   "N  €$€€ ` ÐA&Ÿþ÷Ý P€–˜@H  G 0Ž $ ,x  Is FullScre en(): (T olerance Mode=1,  InPixel s=0, Pro cName=re cuva64.e xe, AppW indowWid th=927, aHeight =675, Mo nitor&38Ž4 R%216 ›s›t_DCS^SizeDiv
-bIs
-ed=0)s öß8†Ô@˜…)(ƒ „“ÐÁ Ý4û  ­òœO7!`ñƒ+ê"ŒI„&0¬"x5‘? h1ä.ÁAÁ    H  ± @   "N  €$€€ ` ÐA‘Ÿþ÷Ý P€–˜@H  G 0X $ ,x

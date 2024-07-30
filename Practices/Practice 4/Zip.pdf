@@ -1,685 +1,0 @@
-{
-  "tutorials": [
-    {
-      "surfaces": {
-        "in_app_panel": {
-          "name": "Cuatro formas de elegir un color",
-          "version": "2.1.0",
-          "image": "https://cc-cdn.adobe.com/graceland/make-a-color-selection-in-five-ways/selectcolorshero.jpg",
-          "content": [
-            {
-              "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-2",
-              "title": "Elegir un color con el Selector de color",
-              "taskList": {
-                "tasks": [
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-2-task-1",
-                    "coachmark": {
-                      "content": "Haga clic en el cuadro de color frontal para abrir el Selector de color. Elija un color p√∫rpura en la barra vertical y, a continuaci√≥n, haga clic en la parte superior del cuadro de color grande para elegir un color p√∫rpura claro. Haga clic en Aceptar.",
-                      "position": {
-                        "type": "view",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "panel": "toolbar",
-                        "viewID": "frbk"
-                      },
-                      "type": "text",
-                      "key": "coachmark-1"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "set",
-                        "descriptor": {
-                          "_isCommand": true,
-                          "null": {
-                            "_property": "foregroundColor",
-                            "_ref": "color"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-2-task-2",
-                    "coachmark": {
-                      "content": "Seleccione la herramienta Pincel. Si esta herramienta ya est√° seleccionada, haga clic en otra y, a continuaci√≥n, haga clic de nuevo en la herramienta Pincel.",
-                      "position": {
-                        "type": "tool",
-                        "id": "paintbrushTool"
-                      },
-                      "type": "text",
-                      "key": "coachmark-2"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "select",
-                        "descriptor": {
-                          "null": {
-                            "_ref": "paintbrushTool"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-2-task-3",
-                    "coachmark": {
-                      "content": "Haga clic para abrir el selector de pinceles preestablecidos.",
-                      "position": {
-                        "type": "view",
-                        "name": "paintbrushTool",
-                        "arrow": "top-left",
-                        "arrowOrientation": "vertical",
-                        "optionsBarPathId": "options.subViews[0].subViews[4].subViews[0].subViews[0].subViews[1]",
-                        "panel": "options"
-                      },
-                      "type": "text",
-                      "key": "coachmark-3"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "toggleBrushesFlyout",
-                        "descriptor": {
-                          "_isCommand": false,
-                          "state": {
-                            "_enum": "state",
-                            "_value": "enter"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-2-task-4",
-                    "coachmark": {
-                      "content": "En la carpeta Generelle pensler, elija el pincel redondo suave y ajuste el tama√±o en aproximadamente 50¬†px. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "view",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "260",
-                          "top": "235"
-                        },
-                        "panel": "options",
-                        "viewID": "optn"
-                      },
-                      "type": "text",
-                      "key": "coachmark-4"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-2-task-5",
-                    "coachmark": {
-                      "content": "Seleccione Multiplicar como modo de fusi√≥n. Esto permitir√° que las l√≠neas negras del boceto se muestren a trav√©s de los colores con los que va a pintar. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "view",
-                        "arrow": "top-left",
-                        "arrowOrientation": "vertical",
-                        "offset": {
-                          "left": "240",
-                          "top": "30"
-                        },
-                        "panel": "options",
-                        "viewID": "optn"
-                      },
-                      "type": "text",
-                      "key": "coachmark-5"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-2-task-6",
-                    "coachmark": {
-                      "content": "Utilice la herramienta Pincel para pintar con el color frontal sobre una de las formas de flor del boceto. No pasa nada si pinta fuera de las l√≠neas.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "45%",
-                          "top": "46%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-6"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "toolModalStateChanged",
-                        "descriptor": {
-                          "_isCommand": false,
-                          "kcanDispatchWhileModal": true,
-                          "kind": {
-                            "_enum": "kind",
-                            "_value": "paint"
-                          },
-                          "level": 1,
-                          "selectedTool": {
-                            "ID": "pntb",
-                            "_obj": "tool",
-                            "title": "Brush Tool"
-                          },
-                          "state": {
-                            "_enum": "state",
-                            "_value": "enter"
-                          },
-                          "tool": {
-                            "ID": "pntb",
-                            "_obj": "tool",
-                            "title": "Brush Tool"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  }
-                ]
-              }
-            },
-            {
-              "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-3",
-              "title": "Elegir un color con la herramienta Cuentagotas",
-              "taskList": {
-                "tasks": [
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-3-task-1",
-                    "coachmark": {
-                      "content": "Seleccione la herramienta Cuentagotas. Esta herramienta se puede utilizar para obtener una muestra de un color existente de la ilustraci√≥n.",
-                      "position": {
-                        "type": "tool",
-                        "id": "eyedropperTool"
-                      },
-                      "type": "text",
-                      "key": "coachmark-1"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "select",
-                        "descriptor": {
-                          "null": {
-                            "_ref": "eyedropperTool"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-3-task-2",
-                    "coachmark": {
-                      "content": "Utilice la herramienta Cuentagotas para hacer clic en un color verde claro de la fotograf√≠a de las flores. Esta acci√≥n cambiar√° el color frontal al que seleccione.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-right",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "83%",
-                          "top": "53%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-2"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "set",
-                        "descriptor": {
-                          "_isCommand": true,
-                          "null": {
-                            "_property": "foregroundColor",
-                            "_ref": "color"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-3-task-3",
-                    "coachmark": {
-                      "content": "Seleccione la herramienta Pincel.",
-                      "position": {
-                        "type": "tool",
-                        "id": "paintbrushTool"
-                      },
-                      "type": "text",
-                      "key": "coachmark-3"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "select",
-                        "descriptor": {
-                          "null": {
-                            "_ref": "paintbrushTool"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-3-task-4",
-                    "coachmark": {
-                      "content": "Con la herramienta Pincel a√∫n seleccionada, pinte en una de las hojas con el color verde cuya muestra ha obtenido de la fotograf√≠a. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "45%",
-                          "top": "48%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-4"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  }
-                ]
-              }
-            },
-            {
-              "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-4",
-              "title": "Elegir un color en el panel Muestras",
-              "taskList": {
-                "tasks": [
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-4-task-1",
-                    "coachmark": {
-                      "content": "Abra una de las carpetas de muestras y haga clic en una muestra de color para establecerla como el nuevo color frontal.",
-                      "position": {
-                        "type": "view",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "panel": "swatches",
-                        "viewID": ""
-                      },
-                      "type": "text",
-                      "key": "coachmark-1"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "set",
-                        "descriptor": {
-                          "_isCommand": true,
-                          "null": {
-                            "_property": "foregroundColor",
-                            "_ref": "color"
-                          }
-                        }
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-4-task-2",
-                    "coachmark": {
-                      "content": "Haga clic en el peque√±o icono de flecha curva para intercambiar los colores frontal y de fondo. Esta acci√≥n establecer√° el color que acaba de elegir en el panel Muestras como el nuevo color de fondo.",
-                      "position": {
-                        "type": "view",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "panel": "toolbar",
-                        "viewID": "swap"
-                      },
-                      "type": "text",
-                      "key": "coachmark-2"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "exchange"
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-4-task-3",
-                    "coachmark": {
-                      "content": "Haga clic en una muestra de color diferente para establecerlo como el nuevo color frontal. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "view",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "panel": "swatches",
-                        "viewID": ""
-                      },
-                      "type": "text",
-                      "key": "coachmark-3"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-4-task-4",
-                    "coachmark": {
-                      "content": "Con la herramienta Pincel a√∫n seleccionada, pinte sobre otra flor del boceto con el nuevo color frontal que eligi√≥ en el panel Muestras. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "46%",
-                          "top": "48%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-4"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-4-task-5",
-                    "coachmark": {
-                      "content": "Haga clic en el peque√±o icono de flecha curva para volver a intercambiar los colores frontal y de fondo. Ahora puede alternar f√°cilmente entre los dos colores que eligi√≥ en el panel Muestras.",
-                      "position": {
-                        "type": "view",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "panel": "toolbar",
-                        "viewID": "swap"
-                      },
-                      "type": "text",
-                      "key": "coachmark-5"
-                    },
-                    "successConditions": [
-                      {
-                        "event": "exchange"
-                      }
-                    ],
-                    "type": "Step"
-                  },
-                  {
-                    "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-4-task-6",
-                    "coachmark": {
-                      "content": "Con la herramienta Pincel a√∫n seleccionada, pinte sobre una flor en el boceto con el color elegido. Para ello, cambie el color de fondo por el color frontal. Haga clic en {NEXT} para continuar.",
-                      "position": {
-                        "type": "canvas",
-                        "arrow": "top-left",
-                        "arrowOrientation": "horizontal",
-                        "offset": {
-                          "left": "46%",
-                          "top": "48%"
-                        }
-                      },
-                      "type": "text",
-                      "key": "coachmark-6"
-                    },
-                    "successConditions": [],
-                    "type": "Step"
-                  }
-                ]
-              }
-            },
-            {
-              "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways-step-5",
-              "title": "¬°Listo! Ahora ya sabe c√≥mo elegir colores mediante cuatro m√©todos diferentes en Photoshop.",
-              "fallbackTitle": "¬°Listo! Ahora ya sabe c√≥mo elegir colores mediante cuatro m√©todos diferentes en Photoshop.",
-              "credit": "Natalia Klenova, Natalya"
-            }
-          ],
-          "client": "Learn",
-          "key": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways",
-          "landingStep": {
-            "description": "Explore diferentes formas de elegir colores con el Selector de color, la herramienta Cuentagotas y el panel Muestras.",
-            "image": "https://cc-cdn.adobe.com/graceland/make-a-color-selection-in-five-ways/selectcolorshero.jpg",
-            "key": "step-1",
-            "title": "Cuatro formas de elegir un color",
-            "coachmark": {
-              "content": "Haga clic en {NEXT} para comenzar.",
-              "position": {
-                "type": "view",
-                "arrow": "top-right",
-                "arrowOrientation": "vertical",
-                "panel": "panelid.static.learn",
-                "viewID": "next"
-              },
-              "type": "text",
-              "key": "coachmarkKey"
-            }
-          },
-          "author": {
-            "name": "Joseph Labrecque",
-            "avatar": "https://utut-service.adobe.com/api/user/avatar/470645A344600413992015D5.jpg",
-            "bio": "https://utut-service.adobe.com/api/user/avatar/bio/470645A344600413992015D5.json",
-            "badge": "https://utut-service.adobe.com/api/user/avatar/badge/470645A344600413992015D5.svg"
-          },
-          "type": "Tutorial",
-          "locale": "es_ES",
-          "template": "https://cc-cdn.adobe.com/graceland/photoshop/how-to/in-app/make-a-color-selection-in-five-ways/assets/es-ES/v2_choose_color.psdt"
-        },
-        "in_app_panels": {
-          "live": "c2652471-3524-344b-84a5-390f9cac8752",
-          "versions": [
-            2
-          ]
-        },
-        "ids": {
-          "in_app_panels": {
-            "live": "c2652471-3524-344b-84a5-390f9cac8752",
-            "versions": [
-              2
-            ]
-          }
-        }
-      },
-      "aem_id": "photoshop/how-to/in-app/make-a-color-selection-in-five-ways",
-      "metadata": {
-        "formatVersion": "1.0",
-        "descriptions": {
-          "medium": "Explore diferentes formas de elegir colores con el Selector de color, la herramienta Cuentagotas y el panel Muestras.",
-          "short": "Explore diferentes formas de elegir colores con el Selector de color, la herramienta Cuentagotas y el panel Muestras.",
-          "long": "Explore diferentes formas de elegir colores con el Selector de color, la herramienta Cuentagotas y el panel Muestras."
-        },
-        "media_types": [
-          "HandsOn"
-        ],
-        "creative_fields": [
-          "graphic-design"
-        ],
-        "application": {
-          "fi_code": "photoshop_cc",
-          "sap_code": "PHSP"
-        },
-        "locale": "es_ES",
-        "images": {
-          "hero": "https://cc-cdn.adobe.com/graceland/make-a-color-selection-in-five-ways/selectcolorshero.jpg",
-          "thumbnail": "https://cc-cdn.adobe.com/graceland/make-a-color-selection-in-five-ways/selectcolorsthumb.jpg",
-          "heroPath": "assets/LCM-PHXS-25.7-es_ES-b45e9464-a562-47e6-899f-bfc0477bb166.jpeg",
-          "thumbnailPath": "assets/LCM-PHXS-25.7-es_ES-27ff512f-914d-4ba2-8e98-33d843bd3020.jpeg"
-        },
-        "title": "Cuatro formas de elegir un color",
-        "platforms": [
-          "in-app"
-        ],
-        "duration_in_seconds": "160",
-        "learning_approach": "interactive-in-app",
-        "related_applications": {
-          "fi_code": [],
-          "sap_code": []
-        },
-        "level": "beginner",
-        "stage": "practice",
-        "source": {
-          "third_party": false,
-          "label": "Adobe.com"
-        },
-        "topics": [
-          "Painting",
-          "Color"
-        ],
-        "urls": {
-          "helpx": "",
-          "helpx_iframe": "",
-          "low_url": "https://creativecloud.adobe.com/es/learn/photoshop/in-app/make-a-color-selection-in-five-ways"
-        },
-        "taxonomy": {
-          "creative_fields": [
-            {
-              "archived": false,
-              "enName": "Graphic design",
-              "id": "c42a4f725de6414facbd08326ec4cc7f",
-              "internalId": "graphic-design",
-              "name": "Dise√±o gr√°fico",
-              "toolType": ""
-            }
-          ],
-          "tasks": [
-            {
-              "archived": false,
-              "enName": "Choose color",
-              "id": "eae69951369941a1a807a151f5f01837",
-              "internalId": "choose-color",
-              "name": "Seleccionar color",
-              "toolType": ""
-            },
-            {
-              "archived": false,
-              "enName": "Paint with brush",
-              "id": "0c5148c552794e5a979a13622bc93833",
-              "internalId": "paint-with-brush",
-              "name": "Pintar con pincel",
-              "toolType": ""
-            },
-            {
-              "archived": false,
-              "enName": "Sample color from image",
-              "id": "229572d4653c4c4197384912dfd9a79c",
-              "internalId": "sample-color-from-image",
-              "name": "Muestrear color a partir de imagen",
-              "toolType": ""
-            },
-            {
-              "archived": false,
-              "enName": "Change blend modes",
-              "id": "f65dc7acd12145bc95452e6a81f09110",
-              "internalId": "change-blend-modes",
-              "name": "Cambiar modos de fusi√≥n",
-              "toolType": ""
-            }
-          ],
-          "tools": [
-            {
-              "archived": false,
-              "enName": "Brush Options Bar",
-              "id": "e27891d099354d83a19399db1b6d770a",
-              "internalId": "brush-options-bar",
-              "name": "Barra de opciones de Pincel",
-              "toolType": "tool"
-            },
-            {
-              "archived": false,
-              "enName": "Brush Tool",
-              "id": "04d82e4abe2c4b05bb1a6ceebdd32e1e",
-              "internalId": "brush-tool",
-              "name": "Herramienta Pincel",
-              "toolType": "tool"
-            },
-            {
-              "archived": false,
-              "enName": "Color Picker",
-              "id": "a6260819f7b247adab14326d8b2a981e",
-              "internalId": "color-picker",
-              "name": "Selector de color",
-              "toolType": "panel"
-            },
-            {
-              "archived": false,
-              "enName": "Swatches",
-              "id": "1ef8dc91a68b44fb8fa47fe3af2b6d0d",
-              "internalId": "swatches",
-              "name": "Muestras",
-              "toolType": "panel"
-            },
-            {
-              "archived": false,
-              "enName": "Window > Swatches",
-              "id": "d82e994d1a41408585939b6041455ece",
-              "internalId": "window-swatches",
-              "name": "Ventana > Muestras",
-              "toolType": "menu"
-            },
-            {
-              "archived": false,
-              "enName": "Eyedropper Tool",
-              "id": "7ab42f94730d4460971d8ab7e8ec87ec",
-              "internalId": "eyedropper-tool",
-              "name": "Herramienta Cuentagotas",
-              "toolType": "tool"
-            },
-            {
-              "archived": false,
-              "enName": "Switch Foreground and Background Colors",
-              "id": "0a4c91865b1f470397852d535a95ae41",
-              "internalId": "switch-foreground-and-background-colors",
-              "name": "Cambiar colores frontal y de fondo",
-              "toolType": "tool"
-            }
-          ],
-          "topics": [
-            {
-              "archived": false,
-              "enName": "Painting",
-              "id": "76faf30d1c2e4b28b0f7d91eb04f8e91",
-              "internalId": "painting",
-              "name": "Ilustraci√≥n de pintura",
-              "toolType": ""
-            },
-            {
-              "archived": false,
-              "enName": "Color",
-              "id": "0b866e9c90384a2a8a4feefa187d13f4",
-              "internalId": "color",
-              "name": "Color",
-              "toolType": ""
-            }
-          ]
-        }
-      },
-      "urls": {
-        "helpx": "",
-        "helpx_iframe": "",
-        "low_url": "https://creativecloud.adobe.com/es/learn/photoshop/in-app/make-a-color-selection-in-five-ways"
-      },
-      "created_on": "2021-05-24T15:03:19.972Z",
-      "modified_on": "2022-09-22T19:35:12.685Z",
-      "locale": "es_ES",
-      "published_status": "live",
-      "tutorialUUID": "ab3bde2f-b606-373a-9c26-4b206625a10a",
-      "service_uuid": "4dd28dd3-d6e2-339b-a384-458e91226c9c",
-      "version": 5
-    }
-  ],
-  "per_page": 50,
-  "page": 1,
-  "total_objects": 1
-}
-                                                                                                                                                                                                                                                                                                                                                MZê       ˇˇ  ∏       @                                   Ä   ∫ ¥	Õ!∏LÕ!This program cannot be run in DOS mode.
-$       PE  L ~–Ô∏        ‡ " 0  2         ~Q       `                           †     &⁄   @Ö                           ,Q  O    `             <  †(   Ä     Q                                                               H           .text   Ñ1       2                    `.rsrc      `      4              @  @.reloc      Ä      :              @  B                `Q      H     P   (  	       x&  *  êP  Ä                                   BSJB         v4.0.30319     l   \  #~  »  x  #Strings    @     #US D     #GUID   T  ‘  #Blob           	   ˙3            
-   
-              /      § á á  t i   ¯ Y › Y á Y D Y a Y ƒ Y - Y           	 n  n  n
- ) n 1 n 9 n A n I n Q n Y n .  ¿ .  … .  Ë . # Ò . + . 3 @. ; a. C t. K º. S @Ä             Ck            
-              †     æ  ê     ß       <Module> System.Runtime DebuggableAttribute AssemblyTitleAttribute AssemblyFileVersionAttribute AssemblyInformationalVersionAttribute AssemblyDescriptionAttribute CompilationRelaxationsAttribute AssemblyProductAttribute AssemblyCopyrightAttribute AssemblyCompanyAttribute RuntimeCompatibilityAttribute Microsoft.VisualBasic.Forms.resources.dll System.Reflection ko .ctor System.Diagnostics System.Runtime.CompilerServices System.SR.ko.resources Microsoft.VisualBasic.MyServices.Internal.ProgressDialog.ko.resources Microsoft.VisualBasic.CompilerServices.VBInputBox.ko.resources Microsoft.VisualBasic.Forms.resources DebuggingModes     |≤Ö€NœJæ#DA\G«∫      ∞?_’
-:Ä† $  Ä  î      $  RSA1     —˙WƒÆŸ£.Ñ™Æ˝ÈË˝jÏèá˚vlÉLôí≤;ÁöŸ’‹¡›ö“6!êr<˘Äïƒ·wè∆wO)Ë2íÍÏ‰Ë!¿•ÔËÒd\Lì¡´ô(]b,™e,˙÷=t]o-ÂÒ~^Øƒñ=&äCe m¿ì4MZ“ì        TWrapNonExceptionThrows       Microsoft Corporation  3 .¬© Microsoft Corporation. All rights reserved.    Microsoft.VisualBasic.Forms   7.0.1624.6711  G B7.0.16-servicing.24067.11+3d504675f930028236a0f09e47c900ad48bd3d6e   Microsoft¬Æ .NET    ï  Œ Ôæ   )  óSystem.Resources.Extensions.DeserializingResourceReader, System.Resources.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51éSystem.Resources.Extensions.RuntimeResourceSet, System.Resources.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51   $      fSystem.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3agSystem.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3aƒ«ÑFXrí‘™ö’µÏ∞Íb±≤’-ø≤Ò¿∫ºe¬∫õ¿bæ=ÿ…éﬂ≈ÕRLíˆÍLúR	ùæñÒ¡(§"˛dß"Üè.Mïè>ÆCÒBëŒ˙Bˇ@=F7Ñ¶HÑú€I˚„Ió≥M≈é|RPÆúUYß∏U®‰ÌY†˘Yê.~\—"6jêL+k(1k™xÌqE  Ï  X   3   ´   È   ®  b  ∏  V        ≤    «  5  Î  ›  X  q   é   †  Ê    ≈  ;    Å    '  â    »   f  ,  	  b  .$ t h i s . A u t o S c a l e B a s e S i z e      $ t h i s . C l i e n t S i z e    $ t h i s . T e x t    > > $ t h i s . N a m e    > > $ t h i s . T y p e "   > > L a b e l . N a m e ñ   > > L a b e l . P a r e n t ù   > > L a b e l . T y p e §   > > L a b e l . Z O r d e r   *> > M y C a n c e l B u t t o n . N a m e   .> > M y C a n c e l B u t t o n . P a r e n t ,  *> > M y C a n c e l B u t t o n . T y p e 3  .> > M y C a n c e l B u t t o n . Z O r d e r ©  > > O K B u t t o n . N a m e ¨  "> > O K B u t t o n . P a r e n t ∂  > > O K B u t t o n . T y p e Ω  "> > O K B u t t o n . Z O r d e r 3  > > T e x t B o x . N a m e 6   > > T e x t B o x . P a r e n t ?  > > T e x t B o x . T y p e F   > > T e x t B o x . Z O r d e r Ω  L a b e l . L o c a t i o n ¿  L a b e l . S i z e …  L a b e l . T a b I n d e x ”  L a b e l . T e x t ÿ  .M y C a n c e l B u t t o n . L o c a t i o n €  &M y C a n c e l B u t t o n . S i z e Â  .M y C a n c e l B u t t o n . T a b I n d e x Ó  &M y C a n c e l B u t t o n . T e x t Û  "O K B u t t o n . L o c a t i o n ˚  O K B u t t o n . S i z e   "O K B u t t o n . T a b I n d e x   O K B u t t o n . T e x t    T e x t B o x . L o c a t i o n   T e x t B o x . S i z e $   T e x t B o x . T a b I n d e x .  @5, 13@353, 120#
-VBInputBoxrSystem.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089Label$thissSystem.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0891MyCancelButton$thistSystem.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0893OKButton$thistSystem.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892TextBox$thisuSystem.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0890A10, 10@250, 70   #A290, 40@60, 22   Ï∑®ÏÜåA290, 12@60, 22   ÌôïÏù∏A10, 90@335, 20           Î  Œ Ôæ   )  óSystem.Resources.Extensions.DeserializingResourceReader, System.Resources.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51éSystem.Resources.Extensions.RuntimeResourceSet, System.Resources.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51          fSystem.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a7System.Windows.Forms.AnchorStyles, System.Windows.FormsgSystem.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a^õÜÊI6Ü^;Üü∞Sä‘™ö$É@ûõøCû∂ü£[s1Ø’µÏ∞awØ±û≤≤±éﬂ≈Õä_>‘z≠M’$Æø÷õÍ¬÷zA	·äÀMÎöè˛ÚO≥ ?õ)¢§R∫)¥^‹c(ü≈]5^Hs?ÆCÒBëŒ˙BÀ©N£>1\œ  w  ¡  ¨  X   ´     ˙    3   #  â      ñ     á  ’  Ô  ò  T  u  ‚  $  ∫  %  ]  ‡   N  q   é   N  H  ˆ  .$ t h i s . A u t o S c a l e B a s e S i z e      $ t h i s . C l i e n t S i z e    $ t h i s . T e x t    > > $ t h i s . N a m e #   > > $ t h i s . T y p e 3   0> > B u t t o n C l o s e D i a l o g . N a m e ß   4> > B u t t o n C l o s e D i a l o g . P a r e n t ∫   0> > B u t t o n C l o s e D i a l o g . T y p e ¡   4> > B u t t o n C l o s e D i a l o g . Z O r d e r 7   > > L a b e l I n f o . N a m e :  $> > L a b e l I n f o . P a r e n t E   > > L a b e l I n f o . T y p e L  $> > L a b e l I n f o . Z O r d e r ¡  ,> > P r o g r e s s B a r W o r k . N a m e ƒ  0> > P r o g r e s s B a r W o r k . P a r e n t ’  ,> > P r o g r e s s B a r W o r k . T y p e ‹  0> > P r o g r e s s B a r W o r k . Z O r d e r W  0B u t t o n C l o s e D i a l o g . A n c h o r Z  4B u t t o n C l o s e D i a l o g . A u t o S i z e g  4B u t t o n C l o s e D i a l o g . L o c a t i o n i  4B u t t o n C l o s e D i a l o g . T a b I n d e x s  ,B u t t o n C l o s e D i a l o g . T e x t x   L a b e l I n f o . A n c h o r Ñ  $L a b e l I n f o . A u t o S i z e ó  $L a b e l I n f o . L o c a t i o n ô  L a b e l I n f o . S i z e ¢  $L a b e l I n f o . T a b I n d e x ¨  L a b e l I n f o . T e x t ±  ,P r o g r e s s B a r W o r k . A n c h o r    0P r o g r e s s B a r W o r k . L o c a t i o n ›  (P r o g r e s s B a r W o r k . S i z e Ê  0P r o g r e s s B a r W o r k . T a b I n d e x   @5, 13@373, 109ProgressDialogProgressDialogrSystem.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089ButtonCloseDialog$thistSystem.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0890	LabelInfo$thissSystem.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0892ProgressBarWork$thisySystem.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0891A
-Top, RightB286, 78   
-Ï∑®ÏÜå(&C)ATop, Left, RightB10, 23@350, 39    ÏßÑÌñâÎ•† ÎåÄÌôî ÏÉÅÏûêATop, Left, RightB10, 78@268, 12      Œ Ôæ   ë   lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet   #       PADPADP∏≠ÅÕ∑∞áV ∫îîr®ñÜjöÜlH•Ê/8∂⁄hÑ∑åÍj∫.„ïƒVÂ∆àlmŒ"∑ÿ“[ËŸó%ﬁÀÚP‡Ç"Î˙dÄ˚v*ã Åœö
-©
-X2mn;*ôqC.ì[71Ë+2äö°6§·ÿZÛX¢n’ıOpôÉÄs ´Ôt¥§ué€Ç|œ€Ç|$  ä    z       í  π  _  ·  —  #  í  È  S  ‰  ô  ≠  Ó  7  1   A  ä  U  ∞  ˙   p  Û     l  /    ∆  ¡   V  c  u	  ,A p p M o d e l _ N o S t a r t u p F o r m     DA p p M o d e l _ S i n g l e I n s t a n c e C a n t C o n n e c t -   BA p p M o d e l _ S p l a s h A n d M a i n F o r m T h e S a m e ê   4A p p l i c a t i o n L o g B a s e N a m e N u l l –   8A p p l i c a t i o n L o g N u m b e r T o o S m a l l   VA p p l i c a t i o n L o g _ E x h a u s t e d P o s s i b l e S t r e a m N a m e s K  JA p p l i c a t i o n L o g _ F i l e E x c e e d s M a x i m u m S i z e Ω  :A p p l i c a t i o n L o g _ F r e e S p a c e E r r o r   :A p p l i c a t i o n L o g _ N e g a t i v e N u m b e r Y  LA p p l i c a t i o n L o g _ R e s e r v e d S p a c e E n c r o a c h e d Ä  4A r g u m e n t _ I n v a l i d N u l l V a l u e 1   ,A r g u m e n t _ I n v a l i d V a l u e 1 /  4A r g u m e n t _ I n v a l i d V a l u e T y p e 2 X  2D i a g n o s t i c I n f o _ F u l l O S N a m e ò  *D i a g n o s t i c I n f o _ M e m o r y I  &E n v V a r N o t F o u n d _ N a m e í  :G e n e r a l _ A r g u m e n t N u l l E x c e p t i o n »  .G e n e r a l _ P r o p e r t y N o t h i n g   I D 5 3 )  I D 7 0 M  $I O _ F i l e E x i s t s _ P a t h v  (I O _ F i l e N o t F o u n d _ P a t h ”  (I O _ F i l e P a t h E x c e p t i o n ˝  ,M o u s e _ N o M o u s e I s P r e s e n t E  ,M o u s e _ N o W h e e l I s P r e s e n t a  8N e t w o r k _ B a d C o n n e c t i o n T i m e o u t Å  :N e t w o r k _ D o w n l o a d N e e d s F i l e n a m e ±  0N e t w o r k _ I n v a l i d U r i S t r i n g ¯  6N e t w o r k _ N e t w o r k N o t A v a i l a b l e î  DN e t w o r k _ U p l o a d A d d r e s s N e e d s F i l e n a m e Â  P r o c e s s N o t F o u n d -  <P r o g r e s s D i a l o g D o w n l o a d i n g L a b e l b  <P r o g r e s s D i a l o g D o w n l o a d i n g T i t l e ú  8P r o g r e s s D i a l o g U p l o a d i n g L a b e l ¿  8P r o g r e s s D i a l o g U p l o a d i n g T i t l e ˜  +ÏãúÏûë ÌèºÏù¥ ÏßÄÏ†ïÎêòÏßÄ ÏïäÏïòÏäµÎãàÎã§.aÏù¥ Îã®Ïùº Ïù∏Ïä§ÌÑ¥Ïä§ ÏùëÏö© ÌîÑÎ°úÍ∑∏Îû®ÏùÑ ÏõêÎ≥∏ Ïù∏Ïä§ÌÑ¥Ïä§Ïóê Ïó∞Í≤∞Ìï† Ïàò ÏóÜÏäµÎãàÎã§.>ÏãúÏûë ÌôîÎ©¥Í≥º Í∏∞Î≥∏ ÌèºÏùÄ Í∞ôÏùÄ ÌèºÏùº Ïàò ÏóÜÏäµÎãàÎã§.@BaseFileNameÏùÄ NothingÏù¥ÎÇò Îπà Î¨∏ÏûêÏó¥Ïùº Ïàò ÏóÜÏäµÎãàÎã§.7{0}Ïùò Í∞íÏùÄ 1000Î≥¥Îã§ ÌÅ¨Í±∞ÎÇò Í∞ôÏïÑÏïº Ìï©ÎãàÎã§.pÎ°úÍ∑∏Ïùò Ïä§Ìä∏Î¶ºÏùÑ Í∞ÄÏ†∏Ïò¨ Ïàò ÏóÜÏäµÎãàÎã§. {0}Ïóê Í∏∞Î∞òÌïú ÌååÏùº Ïù¥Î¶ÑÏù¥ Ïù¥ÎØ∏ ÏÇ¨Ïö© Ï§ëÏûÖÎãàÎã§.XMaxFileSize Í∞íÏùÑ Ï¥àÍ≥ºÌï† Ïàò ÏûàÍ∏∞ ÎïåÎ¨∏Ïóê Î°úÍ∑∏ ÌååÏùºÏóê Ïì∏ Ïàò ÏóÜÏäµÎãàÎã§.@ÏÇ¨Ïö© Í∞ÄÎä•Ìïú ÎîîÏä§ÌÅ¨ Í≥µÍ∞ÑÏùÑ ÌôïÏù∏Ìï† Ïàò ÏóÜÏäµÎãàÎã§.%{0}Ïùò Í∞íÏùÄ ÏñëÏàòÏó¨Ïïº Ìï©ÎãàÎã§.âÏÇ¨Ïö© Í∞ÄÎä•Ìïú ÎîîÏä§ÌÅ¨ Í≥µÍ∞ÑÏù¥ ReservedSpace Í∞í ÎØ∏ÎßåÏúºÎ°ú Ï§ÑÏñ¥Îì§ Ïàò ÏûàÍ∏∞ ÎïåÎ¨∏Ïóê Î°úÍ∑∏ ÌååÏùºÏóê Ïì∏ Ïàò ÏóÜÏäµÎãàÎã§.!'{0}' Ïù∏ÏàòÍ∞Ä NothingÏûÖÎãàÎã§.''{0}' Ïù∏ÏàòÎäî ÏûòÎ™ªÎêú Í∞íÏûÖÎãàÎã§.>'{0}' Ïù∏ÏàòÎ•º '{1}' ÌòïÏãùÏúºÎ°ú Î≥ÄÌôòÌï† Ïàò ÏóÜÏäµÎãàÎã§.ÆÎÇ¥Î∂Ä Ïò§Î•ò ÎïåÎ¨∏Ïóê ÏûëÏóÖ ÏãúÏä§ÌÖúÏùò Ï†ÑÏ≤¥ Ïù¥Î¶ÑÏùÑ Í∞ÄÏ†∏Ïò¨ Ïàò ÏóÜÏäµÎãàÎã§. Ïù¥ Ïò§Î•òÎäî ÌòÑÏû¨ Ïª¥Ìì®ÌÑ∞Ïóê WMIÍ∞Ä ÏóÜÍ∏∞ ÎïåÎ¨∏Ïóê Î∞úÏÉùÌï† Ïàò ÏûàÏäµÎãàÎã§.GÎÇ¥Î∂Ä Ïò§Î•ò ÎïåÎ¨∏Ïóê Î©îÎ™®Î¶¨ Ï†ïÎ≥¥Î•º Í∞ÄÏ†∏Ïò¨ Ïàò ÏóÜÏäµÎãàÎã§.4ÌôòÍ≤Ω Î≥ÄÏàòÍ∞Ä Ï†ïÏùòÎêòÏßÄ ÏïäÏïòÏäµÎãàÎã§. '{0}'&Ïù∏ÏàòÎäî NothingÏùº Ïàò ÏóÜÏäµÎãàÎã§.7{0} ÏÜçÏÑ±ÏùÑ NothingÏúºÎ°ú ÏÑ§Ï†ïÌï† Ïàò ÏóÜÏäµÎãàÎã§."ÌååÏùºÏùÑ Ï∞æÏùÑ Ïàò ÏóÜÏäµÎãàÎã§.'ÏÇ¨Ïö© Í∂åÌïúÏù¥ Í±∞Î∂ÄÎêòÏóàÏäµÎãàÎã§.[ÌååÏùºÏù¥ Ïù¥ '{0}' Í≤ΩÎ°úÏóê Ïù¥ÎØ∏ ÏûàÍ∏∞ ÎïåÎ¨∏Ïóê ÏûëÏóÖÏùÑ ÏôÑÎ£åÌï† Ïàò ÏóÜÏäµÎãàÎã§.('{0}' ÌååÏùºÏùÑ Ï∞æÏùÑ Ïàò ÏóÜÏäµÎãàÎã§.FÏßÄÏ†ïÌïú ÌååÏùº Í≤ΩÎ°úÍ∞Ä ÎîîÎ†âÌÑ∞Î¶¨ Íµ¨Î∂Ñ Î¨∏ÏûêÎ°ú ÎÅùÎÇ©ÎãàÎã§.ÎßàÏö∞Ïä§Í∞Ä ÏóÜÏäµÎãàÎã§.ÎßàÏö∞Ïä§ Ìú†Ïù¥ ÏóÜÏäµÎãàÎã§..ConnectionTimeoutÏùÄ 0Î≥¥Îã§ Ïª§Ïïº Ìï©ÎãàÎã§.EdestinationFileNameÏóêÎäî ÌååÏùº Ïù¥Î¶ÑÏù¥ Ìè¨Ìï®ÎêòÏñ¥Ïïº Ìï©ÎãàÎã§.ô'{0}'ÏùÄ(Îäî) Ïò¨Î∞îÎ•∏ ÏõêÍ≤© ÌååÏùº Ï£ºÏÜåÍ∞Ä ÏïÑÎãôÎãàÎã§. Ïò¨Î∞îÎ•∏ Ï£ºÏÜåÏóêÎäî ÌîÑÎ°úÌÜ†ÏΩú, Í≤ΩÎ°ú Î∞è ÌååÏùº Ïù¥Î¶ÑÏù¥ Ìè¨Ìï®ÎêòÏñ¥Ïïº Ìï©ÎãàÎã§.OÎÑ§Ìä∏ÏõåÌÅ¨ Ïó∞Í≤∞ÏùÑ ÏÇ¨Ïö©Ìï† Ïàò ÏóÜÏñ¥ pingÏùÑ Ïã§ÌñâÌï† Ïàò ÏóÜÏäµÎãàÎã§.FUploadFileÏùò Ï£ºÏÜåÏóêÎäî ÌååÏùº Ïù¥Î¶ÑÏù¥ Ìè¨Ìï®ÎêòÏñ¥Ïïº Ìï©ÎãàÎã§.3ÌîÑÎ°úÏÑ∏Ïä§ '{0}'ÏùÑ(Î•º) Ï∞æÏùÑ Ïàò ÏóÜÏäµÎãàÎã§.8{0}ÏùÑ(Î•º) {1}(Ïúº)Î°ú Îã§Ïö¥Î°úÎìúÌïòÍ≥† ÏûàÏäµÎãàÎã§."{0}ÏùÑ(Î•º) Îã§Ïö¥Î°úÎìúÌïòÎäî Ï§ë5{0}ÏùÑ(Î•º) {1}(Ïúº)Î°ú ÏóÖÎ°úÎìúÌïòÍ≥† ÏûàÏäµÎãàÎã§.{0} ÏóÖÎ°úÎìú Ï§ë     …˝⁄rè!fúì¿Ã¢≥û~	C
-ó&4+{¶_y ôcø’ºSˇ≠>6±t0›€.y:Å§ï7Ü?(2v√Q«sî`„æ2ÈrX∆ÒÅD3-™_ ÿîâ#Í®Œ:|øyUñ?cΩCÓ°xãùf5»ŒûˇCÈ(                           TQ          nQ                          `Q            _CorDllMain mscoree.dll     ˇ%                                                                                                                                                   Ä                  0  Ä                   H   X`  ®          ®4   V S _ V E R S I O N _ I N F O     ΩÔ˛      7X        ?                         D    V a r F i l e I n f o     $    T r a n s l a t i o n       ∞   S t r i n g F i l e I n f o   ‰   0 0 0 0 0 4 b 0   P   C o m m e n t s   M i c r o s o f t . V i s u a l B a s i c . F o r m s   L   C o m p a n y N a m e     M i c r o s o f t   C o r p o r a t i o n   `   F i l e D e s c r i p t i o n     M i c r o s o f t . V i s u a l B a s i c . F o r m s   <   F i l e V e r s i o n     7 . 0 . 1 6 2 4 . 6 7 1 1   t *  I n t e r n a l N a m e   M i c r o s o f t . V i s u a l B a s i c . F o r m s . r e s o u r c e s . d l l   Ä .  L e g a l C o p y r i g h t   ©   M i c r o s o f t   C o r p o r a t i o n .   A l l   r i g h t s   r e s e r v e d .   | *  O r i g i n a l F i l e n a m e   M i c r o s o f t . V i s u a l B a s i c . F o r m s . r e s o u r c e s . d l l   @   P r o d u c t N a m e     M i c r o s o f t Æ   . N E T   ™ C  P r o d u c t V e r s i o n   7 . 0 . 1 6 - s e r v i c i n g . 2 4 0 6 7 . 1 1 + 3 d 5 0 4 6 7 5 f 9 3 0 0 2 8 2 3 6 a 0 f 0 9 e 4 7 c 9 0 0 a d 4 8 b d 3 d 6 e     8   A s s e m b l y   V e r s i o n   7 . 0 . 0 . 0                                                                                                                                                                                                                                                                    P     Ä1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      †(    0Ç(î	*ÜHÜ˜†Ç(Ö0Ç(Å10	`ÜHe 0\
-+Ç7†N0L0
-+Ç70	 †¢Ä 010	`ÜHe  ›ƒ™ü¢‚&¡ÅBê~o4∞DG◊ü\cÔ∏ê€|j°†ÇÂ0Çc0ÇK†3  |…ˆºÌYÆ    |0	*ÜHÜ˜ 0~10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20110230511190332Z240508190332Z0c10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation10U.NET0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ŒâØ|¸‚kH.ò¸™ÅEÿ’= e!Ë£1éÅ˘¬¬®¸#LŒypÎ>êÖÃwT£DÁôb…ıL
-∞Å¬„‹ Ñ ⁄Ñ ˜Å?`∏$ ‹íΩboîTác∑Z‡æﬁ–VÂ\ªxæÓÚ%NC
-*ZiPïí-˝√lñn/ëM;òqèf™÷`˝üR.Í?e©›$◊›5∑fBÈZ tí	á™&s‰XM 
