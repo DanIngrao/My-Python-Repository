@@ -18,11 +18,15 @@ def panel_menu():
         elif option == 1:
             category = select_category()
             if category != 1:
-                select_recipe(category)
+                recipe = select_recipe(category)
+                if recipe != 1:
+                    read_recipe(recipe)
         elif option == 2:
-            pass
+            category = select_category()
+            if category != 1:
+                create_recipe(category)
         elif option == 3:
-            pass
+            create_category()
         elif option == 4:
             category = select_category()
             if category != 1:
@@ -59,19 +63,41 @@ def select_recipe(category):
             return 1
         elif option in range(1,len(recipes_list)+1):
             recipe = Path(f'{recipes_list[option-1]}')
-            print(recipe.read_text())
             return recipe
         else:
             print('Error, invalid option. Try again')
 
 def delete_category(category):
-    os.rmdir(category)
+    Path(category).rmdir()
     print(f'Category "{category.stem}" removed')
 
 def delete_recipe(recipe):
     os.remove(recipe)
     print(f'Recipe "{recipe.stem}" removed')
 
+def create_recipe(category):
+    recipe_name = input('Write the recipe title') + '.txt'
+    recipe_content = input('Write the recipe content')
+    new_recipe = Path(f'{category}\\{recipe_name}')
+    if not os.path.exists(new_recipe):
+        Path.write_text(new_recipe,recipe_content)
+        print(f'{recipe_name} recipe created')
+    else:
+        print('A recipe with that name already exist in this category')
+    
+def create_category():
+    category_name = input('Write the category name')
+    new_category = Path(f'{route}\\{category_name}')
+    if not os.path.exists(new_category):
+        Path.mkdir(category_name)
+    else:
+        print('A category with that name already exist')
 
+def read_recipe(recipe):
+    system('cls')
+    print(recipe.stem)
+    print(recipe.read_text())
+    input('Press enter to continue:\n')
+    system('cls')
 
 panel_menu()
