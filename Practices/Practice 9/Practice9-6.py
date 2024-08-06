@@ -9,6 +9,8 @@ print(busqueda)
 #<re.Match object; span=(13, 18), match='ayuda'>
 print(busqueda.span())
 #(13, 18)
+print(busqueda.group())
+#ayuda
 print(re.findall(patron,texto))
 #['ayuda', 'ayuda']
 for hallazgo in re.finditer(patron,texto):
