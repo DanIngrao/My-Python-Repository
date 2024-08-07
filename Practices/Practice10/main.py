@@ -191,6 +191,8 @@ while se_ejecuta:
         
         # Perder
         if enemigo_y[e] > 650:
+            sonido_perder = mixer.Sound('Practices\\Practice10\\jugador muere.mp3')
+            sonido_perder.play()
             for k in range(cantidad_enemigos):
                 enemigo_y[k] = 2000
             texto_final()
