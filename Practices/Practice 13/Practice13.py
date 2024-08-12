@@ -206,8 +206,8 @@ def pedir_cosas():
             except:
                 hablar('Perdon pero no la he encontrado')
                 continue
-        elif 'ciérrate' or 'adiós' or 'chau' in pedido:
+        elif 'ciérrate' in pedido:
             hablar('Hasta luego')
-            break
+            return False
         
 pedir_cosas()
