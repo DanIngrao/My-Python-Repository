@@ -29,39 +29,52 @@ print([f'{emp['name'],emp['assist_log']}' for emp in db_employees])
 
 def face_search():
 
-    face_in_cam = cv2.imread('Proyects\\P14Proyect_AssistanceDriver\\Employees\\Brad Pitt.jpg')
+    captureimg = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+    succesimg, cam_img = captureimg.read() 
+    if not succesimg:
+       print('No image taken')
+    else:
+        face_in_cam = cam_img
 
-    face_in_cam_cvt = cv2.cvtColor(face_in_cam, cv2.COLOR_BGR2RGB)
-    
-    face_map = fr.face_locations(face_in_cam_cvt)[0]
+        #face_in_cam = cv2.imread('Proyects\\P14Proyect_AssistanceDriver\\Employees\\Brad Pitt.jpg')
+        #face_in_cam = cv2.imread('Practices\\Practice 14\\FotoB.jpg')
+        
+        face_in_cam_cvt = cv2.cvtColor(face_in_cam, cv2.COLOR_BGR2RGB)
 
-    face_encoded = fr.face_encodings(face_in_cam_cvt)[0]
+        face_map = fr.face_locations(face_in_cam_cvt)[0]
 
-    cv2.rectangle(face_in_cam, (face_map[3],face_map[0]),(face_map[1],face_map[2]),(0,255,0),3)
-    
-    for emp in db_employees:
-    
-        if fr.compare_faces([emp['img_code']], face_encoded) == np.True_:
-    
-            print(f'Employee: {emp["name"]}')
-    
-            emp['assist_log'] += 1
+        face_encoded = fr.face_encodings(face_in_cam_cvt)[0]
+
+        cv2.rectangle(face_in_cam, (face_map[3],face_map[0]),(face_map[1],face_map[2]),(0,255,0),3)
+
+        employee_exist = False
+
+        for emp in db_employees:    
+
+            if fr.compare_faces([emp['img_code']], face_encoded, 0.4) == np.True_:
             
-            match_value = fr.face_distance([face_encoded],emp['img_code'])
+                print(f'Employee: {emp["name"]}')
 
-            cv2.putText(face_in_cam,f'Match: {match_value*100}%',(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
-            
-            cv2.imshow('Data Base Match',emp['img'])
-            cv2.imshow('Face', face_in_cam)
+                emp['assist_log'] += 1
 
-    for emp in db_employees:
-        print(
-f'''
-Name: {emp['name']}
-Assistance: {emp['assist_log']}
-*******************************
-'''
-        )
+                match_value = fr.face_distance([face_encoded],emp['img_code'])
+
+                cv2.putText(face_in_cam,f'Match: {match_value*100}%',(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
+
+                cv2.imshow('Data Base Match',emp['img'])
+                cv2.imshow('Face', face_in_cam)
+                employee_exist = True
+
+        if employee_exist == False:
+            print('No match with any registered employee')
+
+
+        for emp in db_employees:
+            print(f'''
+                Name: {emp['name']}
+                Assistance: {emp['assist_log']}
+                *******************************
+                ''')
 
 face_search()
 
