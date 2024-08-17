@@ -31,7 +31,7 @@ print(resultado)
 distancia = fr.face_distance([cara_codificada_A],cara_codificada_B)
 
 # Mostrar resultado
-cv2.putText(foto_prueba,f'{resultado}{distancia.round(2)}',(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,0,255),3)
+cv2.putText(foto_prueba,f'{resultado}{distancia.round(2)}',(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
 print(distancia)
 
 # Mostrar imagenes
