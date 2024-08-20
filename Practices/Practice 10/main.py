@@ -19,25 +19,25 @@ pantalla = pygame.display.set_mode((1280,900)) #---> Declaro el tamanio de la pa
 pygame.display.set_caption('Dragon Lore Dan Proyect')
 
 # Icono
-icono = pygame.image.load('Practices\\Practice10\\icono.png')
+icono = pygame.image.load('Practices\\Practice 10\\icono.png')
 pygame.display.set_icon(icono)
 
 # Fondo
-fondo = pygame.image.load('Practices\\Practice10\\ocean.jpeg')
+fondo = pygame.image.load('Practices\\Practice 10\\ocean.jpeg')
 # Redimensiono la imagen
 fondo_redimensionado = pygame.transform.scale(fondo,(1280,900))
 
 #------------------------------------------------------------------------------------------#
 # Musica
 
-mixer.music.load('Practices\\Practice10\\cancion.mp3')
+mixer.music.load('Practices\\Practice 10\\cancion.mp3')
 mixer.music.play(-1)
 
 #------------------------------------------------------------------------------------------#
 # Jugador
 
 # Imagen del jugador
-img_jugador = pygame.image.load('Practices\\Practice10\\dragon.png')
+img_jugador = pygame.image.load('Practices\\Practice 10\\dragon.png')
 
 # Redimensiono la imagen
 img_jugador_redimensionada = pygame.transform.scale(img_jugador,(150,150))
@@ -62,7 +62,7 @@ enemigo_y_cambio = []
 cantidad_enemigos = 5
 
 # Imagen del enemigo
-img_enemigo = pygame.image.load('Practices\\Practice10\\dragon rojo.png')
+img_enemigo = pygame.image.load('Practices\\Practice 10\\dragon rojo.png')
 
 # Ubicacion y variables del enemigo
 for e in range(cantidad_enemigos): 
@@ -80,7 +80,7 @@ def enemigo(x,y,ene):
 # Disparos
 
 # Imagen del disparo
-img_disparo = pygame.image.load('Practices\\Practice10\\bola de fuego.png')
+img_disparo = pygame.image.load('Practices\\Practice 10\\bola de fuego.png')
 
 # Redimensiono la imagen
 img_disparo_redimensionada = pygame.transform.scale(img_disparo,(75,75))
@@ -112,7 +112,7 @@ def hay_colision(x_1, y_1, x_2, y_2):
 # Puntaje
 
 puntaje = 0
-fuente = pygame.font.Font('Practices\\Practice10\\textfont.ttf',32)
+fuente = pygame.font.Font('Practices\\Practice 10\\textfont.ttf',32)
 texto_x = 10
 texto_y = 10
 
@@ -123,7 +123,7 @@ def mostrar_puntaje(x,y):
 #------------------------------------------------------------------------------------------#
 
 # Final de juego
-fuente_final = pygame.font.Font('Practices\\Practice10\\textfont.ttf',64)
+fuente_final = pygame.font.Font('Practices\\Practice 10\\textfont.ttf',64)
 
 def texto_final():
     mi_fuente_final = fuente_final.render('Game Over',True,(255,255,255))
@@ -163,7 +163,7 @@ while se_ejecuta:
                 if not disparo_visible:
                     disparo_x = jugador_x
                     disparo(disparo_x,disparo_y)
-                    sonido_disparo = mixer.Sound('Practices\\Practice10\\bola de fuego.mp3')
+                    sonido_disparo = mixer.Sound('Practices\\Practice 10\\bola de fuego.mp3')
                     sonido_disparo.play()
         #Evento de soltar tecla
         if evento.type == pygame.KEYUP:
@@ -191,7 +191,7 @@ while se_ejecuta:
         
         # Perder
         if enemigo_y[e] > 650:
-            sonido_perder = mixer.Sound('Practices\\Practice10\\jugador muere.mp3')
+            sonido_perder = mixer.Sound('Practices\\Practice 10\\jugador muere.mp3')
             sonido_perder.play()
             for k in range(cantidad_enemigos):
                 enemigo_y[k] = 2000
@@ -215,7 +215,7 @@ while se_ejecuta:
             print(puntaje)
             enemigo_x[e] = random.randint(0,1130)
             enemigo_y[e] = random.randint(0,200)
-            sonido_colision = mixer.Sound('Practices\\Practice10\\dragon muere.mp3')
+            sonido_colision = mixer.Sound('Practices\\Practice 10\\dragon muere.mp3')
             sonido_colision.play()
 
     # Movimiento disparo
