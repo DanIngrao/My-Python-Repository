@@ -5,7 +5,6 @@ from pathlib import *
 route = Path('Proyects\\P6Proyect_KitchenRecipes\\Kitchen Recipes')
 amount_recipes = len(list(route.glob('**/*.txt')))
 amount_categories = len([r for r in route.iterdir() if route.is_dir()])
-categories_list = [r.stem for r in route.iterdir() if route.is_dir()]
 
 print(f'Welcome to the kitchen recipes app. Here you can find {amount_recipes} recipes and {amount_categories} categories.')
 
@@ -41,6 +40,7 @@ def panel_menu():
             print('Error, invalid option. Try again')
 
 def select_category():
+    categories_list = [r.stem for r in route.iterdir() if route.is_dir()]
     system('cls')
     while True:
         option = int(input(f'Select category below:\n[0] - Back\n{'\n'.join([f'[{categories_list.index(r)+1}] - {r}' for r in categories_list])}\n'))
@@ -76,8 +76,8 @@ def delete_recipe(recipe):
     print(f'Recipe "{recipe.stem}" removed')
 
 def create_recipe(category):
-    recipe_name = input('Write the recipe title') + '.txt'
-    recipe_content = input('Write the recipe content')
+    recipe_name = input('Write the recipe title: ') + '.txt'
+    recipe_content = input('Write the recipe content: ')
     new_recipe = Path(f'{category}\\{recipe_name}')
     if not os.path.exists(new_recipe):
         Path.write_text(new_recipe,recipe_content)
@@ -86,10 +86,10 @@ def create_recipe(category):
         print('A recipe with that name already exist in this category')
     
 def create_category():
-    category_name = input('Write the category name')
+    category_name = input('Write the category name: ')
     new_category = Path(f'{route}\\{category_name}')
     if not os.path.exists(new_category):
-        Path.mkdir(category_name)
+        Path.mkdir(new_category)
     else:
         print('A category with that name already exist')
 
