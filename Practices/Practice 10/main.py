@@ -215,7 +215,7 @@ while se_ejecuta:
             print(puntaje)
             enemigo_x[e] = random.randint(0,1130)
             enemigo_y[e] = random.randint(0,200)
-            sonido_colision = mixer.Sound('Practices\Practice10\dragon muere.mp3')
+            sonido_colision = mixer.Sound('Practices\\Practice10\\dragon muere.mp3')
             sonido_colision.play()
 
     # Movimiento disparo
