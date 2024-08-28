@@ -1,0 +1,40 @@
+Crear entorno virtual:
+
+python -m venv web
+
+Activar entorno virtual:
+
+.\(nombre de la carpeta del entorno)\Scripts\activate
+
+Desactivar el entorno actual:
+
+deactivate
+
+Instalar Django:
+
+pip install django
+
+Crear la carpeta de Django:
+
+django-admin startproject 'nombre de la app'
+
+Iniciar el servidor web:
+
+python manage.py runserver
+
+CTRL+C para cerrar la ejecucion del servidor
+
+python manage.py migrate
+
+Crear el superusuario:
+
+python manage.py createsuperuser
+
+Crear la base de la app:
+
+python manage.py startapp base
+
+Los cambios en los archivos se guardan de la siguiente forma:
+
+python manage.py makemigrations
+python manage.py migrate
